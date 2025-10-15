@@ -15,6 +15,10 @@
                 <entry key="oldName" type="xstring" value="country region (#1)"/>
                 <entry key="newName" type="xstring" value="country"/>
             </config>
+            <config key="2">
+                <entry key="oldName" type="xstring" value="wine"/>
+                <entry key="newName" type="xstring" value="winename"/>
+            </config>
         </config>
         <entry key="doNotAllowPaddedColumnName_Internals" type="xboolean" value="true"/>
     </config>
@@ -46,6 +50,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6a1af412-6d8a-4689-a7ce-fff3c8ada97f"/>
+        <entry key="file_store_id" type="xstring" value="519bfa73-4550-405d-b56b-23826b92a469"/>
     </config>
 </config>

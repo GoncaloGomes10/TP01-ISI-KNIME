@@ -87,7 +87,7 @@
                         </config>
                     </config>
                     <config key="2">
-                        <entry key="name" type="xstring" value="wine"/>
+                        <entry key="name" type="xstring" value="winename"/>
                         <entry key="has_type" type="xboolean" value="true"/>
                         <config key="type">
                             <entry key="class" type="xstring" value="java.lang.String"/>
@@ -189,15 +189,15 @@
                     </config>
                     <config key="2">
                         <config key="external_spec">
-                            <entry key="name" type="xstring" value="wine"/>
+                            <entry key="name" type="xstring" value="winename"/>
                             <entry key="has_type" type="xboolean" value="true"/>
                             <config key="type">
                                 <entry key="class" type="xstring" value="java.lang.String"/>
                             </config>
                         </config>
-                        <entry key="name" type="xstring" value="wine"/>
+                        <entry key="name" type="xstring" value="winename"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="2"/>
+                        <entry key="position" type="xint" value="8"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.String"/>
@@ -221,7 +221,7 @@
                         </config>
                         <entry key="name" type="xstring" value="winetype"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="3"/>
+                        <entry key="position" type="xint" value="2"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.String"/>
@@ -245,7 +245,7 @@
                         </config>
                         <entry key="name" type="xstring" value="country"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="4"/>
+                        <entry key="position" type="xint" value="3"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.String"/>
@@ -269,7 +269,7 @@
                         </config>
                         <entry key="name" type="xstring" value="region"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="5"/>
+                        <entry key="position" type="xint" value="4"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.String"/>
@@ -293,7 +293,7 @@
                         </config>
                         <entry key="name" type="xstring" value="averages"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="6"/>
+                        <entry key="position" type="xint" value="5"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.DoubleCell$DoubleCellFactory.create(class java.lang.Double)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.Double"/>
@@ -317,7 +317,7 @@
                         </config>
                         <entry key="name" type="xstring" value="reviews"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="7"/>
+                        <entry key="position" type="xint" value="6"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
@@ -341,7 +341,7 @@
                         </config>
                         <entry key="name" type="xstring" value="images"/>
                         <entry key="keep" type="xboolean" value="true"/>
-                        <entry key="position" type="xint" value="8"/>
+                        <entry key="position" type="xint" value="7"/>
                         <config key="production_path">
                             <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
                             <entry key="_converter_src" type="xstring" value="java.lang.String"/>
@@ -473,6 +473,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1d8f437d-08ba-4562-98ec-0e19e4b53cf8"/>
+        <entry key="file_store_id" type="xstring" value="fe656922-4b52-4885-9a7c-94f029fa01d6"/>
     </config>
 </config>

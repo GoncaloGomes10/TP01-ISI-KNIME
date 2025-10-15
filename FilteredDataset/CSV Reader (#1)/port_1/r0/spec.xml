@@ -40,18 +40,6 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_2">
-        <entry key="column_name" type="xstring" value="wine"/>
-        <config key="element_names">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-        </config>
-        <config key="column_domain"/>
-        <config key="column_properties"/>
-        <config key="meta_data"/>
-    </config>
-    <config key="column_spec_3">
         <entry key="column_name" type="xstring" value="winetype"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -103,7 +91,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_4">
+    <config key="column_spec_3">
         <entry key="column_name" type="xstring" value="country"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -275,7 +263,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_5">
+    <config key="column_spec_4">
         <entry key="column_name" type="xstring" value="region"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -287,7 +275,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_6">
+    <config key="column_spec_5">
         <entry key="column_name" type="xstring" value="averages"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -312,7 +300,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_7">
+    <config key="column_spec_6">
         <entry key="column_name" type="xstring" value="reviews"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -337,8 +325,20 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_8">
+    <config key="column_spec_7">
         <entry key="column_name" type="xstring" value="images"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_8">
+        <entry key="column_name" type="xstring" value="winename"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
