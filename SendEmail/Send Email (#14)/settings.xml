@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="smtpHost" type="xstring" value="smtp.office365.com"/>
+        <entry key="smtpPort" type="xint" value="587"/>
+        <entry key="useAuthentication" type="xboolean" value="true"/>
+        <entry key="useCredentials" type="xboolean" value="false"/>
+        <entry key="credentialsId" type="xstring" value=""/>
+        <entry key="smtpUser" type="xstring" value="a25455@alunos.ipca.pt"/>
+        <entry key="smtpPasswordWeaklyEncrypted" type="xpassword" value="02CgAAAGMq_QxveL1vZ0EBjwYPTo9XCaDpxQXBCnjO"/>
+        <entry key="connectionSecurity" type="xstring" value="STARTTLS"/>
+        <entry key="emailFormat" type="xstring" value="Html"/>
+        <entry key="emailPriority" type="xstring" value="High"/>
+        <entry key="from" type="xstring" value="a25455@alunos.ipca.pt"/>
+        <entry key="to" type="xstring" value="a25455@alunos.ipca.pt"/>
+        <entry key="cc" type="xstring" value=""/>
+        <entry key="bcc" type="xstring" value=""/>
+        <entry key="replyTo" type="xstring" value=""/>
+        <entry key="subject" type="xstring" value="Workflow finished"/>
+        <entry key="text" type="xstring" value="&lt;div style=&quot;font-family: Arial, sans-serif; color: #222;&quot;&gt;%%00010  &lt;h2 style=&quot;color:#921E21; margin-bottom:7px;&quot;&gt;Top Vinhos Franceses&lt;/h2&gt;%%00010  &lt;span style=&quot;font-size:15px;&quot;&gt;Vinhos Franceses com mais reviews:&lt;/span&gt;%%00010  &lt;br&gt;&lt;br&gt;%%00010  $${Shtml}$$%%00010  &lt;br&gt;&lt;br&gt;%%00010  &lt;div style=&quot;font-size:12px; color: #555;&quot;&gt;Relatório gerado automáticamente pelo KNIME em 16/10/2025.&lt;/div&gt;%%00010&lt;/div&gt;%%00010"/>
+        <config key="attachedURLs">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="smtpConnectionTimeout" type="xint" value="2000"/>
+        <entry key="smtpReadTimeout" type="xint" value="30000"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.util.sendmail.SendMailNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Send Email"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.7.0.v202508280756"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.7.0.v202508280756"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Send Email"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

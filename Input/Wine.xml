@@ -204,8 +204,7 @@
         <winename>Botella 229 N.V.</winename>
         <winetype>Red</winetype>
         <country>UNKNOWN</country>
-        <region>
-        </region>
+        <region>UNKNOWN</region>
         <averages>4.9</averages>
         <reviews>34</reviews>
         <images>https://images.vivino.com/thumbs/3ce4asZUTAmNDVRqzIeOEA_375x500.jpg</images>
@@ -1338,8 +1337,7 @@
         <winename>Ximenez-Spinola Destilado Jerez De La Frontera N.V.</winename>
         <winetype>Red</winetype>
         <country>UNKNOWN</country>
-        <region>
-        </region>
+        <region>UNKNOWN</region>
         <averages>4.8</averages>
         <reviews>153</reviews>
         <images>https://images.vivino.com/thumbs/016h6c1zwr1um_375x500.jpg</images>
@@ -2259,13 +2257,11 @@
     </Wine>
     <Wine>
         <id>230</id>
-        <winerys>
-        </winerys>
+        <winerys>UNKNOWN</winerys>
         <winename>Tesseron Cognac Lot No 29 X.O Exception N.V.</winename>
         <winetype>Red</winetype>
         <country>UNKNOWN</country>
-        <region>
-        </region>
+        <region>UNKNOWN</region>
         <averages>4.8</averages>
         <reviews>72</reviews>
         <images>https://images.vivino.com/thumbs/1371891164_1805_375x500.jpg</images>
@@ -3504,8 +3500,7 @@
     </Wine>
     <Wine>
         <id>343</id>
-        <winerys>
-        </winerys>
+        <winerys>UNKNOWN</winerys>
         <winename>Fine de Bourgogne 1979</winename>
         <winetype>Red</winetype>
         <country>France</country>
@@ -4429,13 +4424,11 @@
     </Wine>
     <Wine>
         <id>427</id>
-        <winerys>
-        </winerys>
+        <winerys>UNKNOWN</winerys>
         <winename>Nordes 2017</winename>
         <winetype>Red</winetype>
         <country>UNKNOWN</country>
-        <region>
-        </region>
+        <region>UNKNOWN</region>
         <averages>4.7</averages>
         <reviews>37</reviews>
         <images>https://images.vivino.com/highlights/icon/most_user_rated.svg</images>
@@ -5047,13 +5040,11 @@
     </Wine>
     <Wine>
         <id>483</id>
-        <winerys>
-        </winerys>
+        <winerys>UNKNOWN</winerys>
         <winename>Onda Napa Valley Cabernet Sauvignon 2010</winename>
         <winetype>Red</winetype>
         <country>UNKNOWN</country>
-        <region>
-        </region>
+        <region>UNKNOWN</region>
         <averages>4.8</averages>
         <reviews>27</reviews>
         <images>https://thumbs.vivino.com/avatars/1730115_599066_big_app_50x50.jpg</images>
@@ -17358,8 +17349,7 @@
     </Wine>
     <Wine>
         <id>380</id>
-        <winerys>
-        </winerys>
+        <winerys>UNKNOWN</winerys>
         <winename>Le Reviseur Fine Petite Champagne XO Limited Edition 2008</winename>
         <winetype>Sparkling</winetype>
         <country>France</country>

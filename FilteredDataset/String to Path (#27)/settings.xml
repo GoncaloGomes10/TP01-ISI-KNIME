@@ -54,7 +54,7 @@
         <entry key="appended_column_name" type="xstring" value="Path"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.filehandling.utility.nodes.stringtopath.StringToPathNodeFactory"/>
     <entry key="node-name" type="xstring" value="String to Path"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Filehandling Nodes"/>
@@ -72,15 +72,12 @@
         <config key="Output table"/>
     </config>
     <entry key="name" type="xstring" value="String to Path"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 6, Cols: 8"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
