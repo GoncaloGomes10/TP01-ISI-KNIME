@@ -22,7 +22,7 @@
         <entry key="bcc" type="xstring" value=""/>
         <entry key="replyTo" type="xstring" value=""/>
         <entry key="subject" type="xstring" value="Workflow finished"/>
-        <entry key="text" type="xstring" value="&lt;div style=&quot;font-family: Arial, sans-serif; color: #222;&quot;&gt;%%00010  &lt;h2 style=&quot;color:#921E21; margin-bottom:7px;&quot;&gt;Top Vinhos Franceses&lt;/h2&gt;%%00010  &lt;span style=&quot;font-size:15px;&quot;&gt;Vinhos Franceses com mais reviews:&lt;/span&gt;%%00010  &lt;br&gt;&lt;br&gt;%%00010  $${Shtml}$$%%00010  &lt;br&gt;&lt;br&gt;%%00010  &lt;div style=&quot;font-size:12px; color: #555;&quot;&gt;Relatório gerado automáticamente pelo KNIME em 16/10/2025.&lt;/div&gt;%%00010&lt;/div&gt;%%00010"/>
+        <entry key="text" type="xstring" value="&lt;div style=&quot;font-family: Arial, sans-serif; color: #222;&quot;&gt;%%00010  &lt;h2 style=&quot;color:#921E21; margin-bottom:7px;&quot;&gt;Top Vinhos Franceses&lt;/h2&gt;%%00010  &lt;span style=&quot;font-size:15px;&quot;&gt;Vinhos Franceses com mais reviews:&lt;/span&gt;%%00010  &lt;br&gt;&lt;br&gt;%%00010  $${Shtml}$$%%00010  &lt;br&gt;&lt;br&gt;%%00010  &lt;div style=&quot;font-size:12px; color: #555;&quot;&gt;Relatório gerado automáticamente pelo KNIME.&lt;/div&gt;%%00010&lt;/div&gt;%%00010"/>
         <config key="attachedURLs">
             <entry key="array-size" type="xint" value="0"/>
         </config>

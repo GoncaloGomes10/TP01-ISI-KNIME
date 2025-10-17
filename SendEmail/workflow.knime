@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="gonca"/>
         <entry key="authored-when" type="xstring" value="2025-10-16 01:20:01 +0100"/>
         <entry key="lastEdited-by" type="xstring" value="gonca"/>
-        <entry key="lastEdited-when" type="xstring" value="2025-10-16 02:31:47 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2025-10-17 18:51:02 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -322,5 +322,14 @@
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
+    </config>
+    <config key="workflow_editor_settings">
+        <entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
+        <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
+        <entry key="workflow.editor.gridX" type="xint" value="-1"/>
+        <entry key="workflow.editor.gridY" type="xint" value="-1"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+        <entry key="workflow.editor.curvedConnections" type="xboolean" value="false"/>
+        <entry key="workflow.editor.connectionWidth" type="xint" value="1"/>
     </config>
 </config>

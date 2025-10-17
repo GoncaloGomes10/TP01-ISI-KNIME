@@ -24,7 +24,7 @@
                             <config key="stringCaseMatching">
                                 <entry key="caseMatching" type="xstring" value="CASEINSENSITIVE"/>
                             </config>
-                            <entry key="value" type="xstring" value="Red"/>
+                            <entry key="value" type="xstring" value="Reds"/>
                         </config>
                     </config>
                     <entry key="inputKind" type="xstring" value="SINGLE"/>

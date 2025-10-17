@@ -7,14 +7,41 @@
     </config>
     <config key="model">
         <config key="ColumnOrder">
-            <entry key="array-size" type="xint" value="7"/>
+            <entry key="array-size" type="xint" value="34"/>
             <entry key="0" type="xstring" value="&lt;any unknown new column&gt;"/>
-            <entry key="1" type="xstring" value="winerys"/>
-            <entry key="2" type="xstring" value="winename"/>
-            <entry key="3" type="xstring" value="winetype"/>
-            <entry key="4" type="xstring" value="country"/>
-            <entry key="5" type="xstring" value="region"/>
-            <entry key="6" type="xstring" value="images"/>
+            <entry key="1" type="xstring" value="id_transformed"/>
+            <entry key="2" type="xstring" value="winerys_transformed"/>
+            <entry key="3" type="xstring" value="winetype_transformed"/>
+            <entry key="4" type="xstring" value="country_transformed"/>
+            <entry key="5" type="xstring" value="region_transformed"/>
+            <entry key="6" type="xstring" value="averages_transformed"/>
+            <entry key="7" type="xstring" value="reviews_transformed"/>
+            <entry key="8" type="xstring" value="images_transformed"/>
+            <entry key="9" type="xstring" value="winename_transformed"/>
+            <entry key="10" type="xstring" value="id_transformed (#1)"/>
+            <entry key="11" type="xstring" value="winerys_transformed (#1)"/>
+            <entry key="12" type="xstring" value="winetype_transformed (#1)"/>
+            <entry key="13" type="xstring" value="country_transformed (#1)"/>
+            <entry key="14" type="xstring" value="region_transformed (#1)"/>
+            <entry key="15" type="xstring" value="averages_transformed (#1)"/>
+            <entry key="16" type="xstring" value="reviews_transformed (#1)"/>
+            <entry key="17" type="xstring" value="images_transformed (#1)"/>
+            <entry key="18" type="xstring" value="winename_transformed (#1)"/>
+            <entry key="19" type="xstring" value="id_transformed_transformed"/>
+            <entry key="20" type="xstring" value="winerys_transformed_transformed"/>
+            <entry key="21" type="xstring" value="winetype_transformed_transformed"/>
+            <entry key="22" type="xstring" value="country_transformed_transformed"/>
+            <entry key="23" type="xstring" value="region_transformed_transformed"/>
+            <entry key="24" type="xstring" value="averages_transformed_transformed"/>
+            <entry key="25" type="xstring" value="reviews_transformed_transformed"/>
+            <entry key="26" type="xstring" value="images_transformed_transformed"/>
+            <entry key="27" type="xstring" value="winename_transformed_transformed"/>
+            <entry key="28" type="xstring" value="winerys"/>
+            <entry key="29" type="xstring" value="winename"/>
+            <entry key="30" type="xstring" value="winetype"/>
+            <entry key="31" type="xstring" value="country"/>
+            <entry key="32" type="xstring" value="region"/>
+            <entry key="33" type="xstring" value="images"/>
         </config>
     </config>
     <config key="variables"/>
