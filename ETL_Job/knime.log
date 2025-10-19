@@ -25087,3 +25087,462 @@ Caused by: org.knime.core.node.CanceledExecutionException: Execution canceled
 2025-10-17 18:53:22,427 : DEBUG : main :  : Node : Call Workflow Service : 3:1 : clean output ports.
 2025-10-17 18:53:22,427 : DEBUG : main :  : Node : Try (Variable Ports) : 3:6 : clean output ports.
 2025-10-17 18:53:22,427 : DEBUG : main :  : Node : Variable Creator : 3:4 : clean output ports.
+2025-10-19 16:16:13,790 : DEBUG : ModalContext :  : CallWorkflow2NodeFactory : ETL_Job : 5 : Factory is already initialized. Nothing to do.
+2025-10-19 16:16:13,822 : DEBUG : ModalContext :  : CallWorkflow2NodeFactory : ETL_Job : 5 : Factory is already initialized. Nothing to do.
+2025-10-19 16:16:13,881 : DEBUG : ModalContext :  : VariableCreatorNodeFactory : ETL_Job : 5 : Factory is already initialized. Nothing to do.
+2025-10-19 16:16:13,925 : DEBUG : ModalContext :  : VariablePortTryNodeFactory : ETL_Job : 5 : Factory is already initialized. Nothing to do.
+2025-10-19 16:16:13,950 : DEBUG : ModalContext :  : VariablePortCatchNodeFactory : ETL_Job : 5 : Factory is already initialized. Nothing to do.
+2025-10-19 16:16:13,973 : DEBUG : ModalContext :  : CallWorkflow2NodeFactory : ETL_Job : 5 : Factory is already initialized. Nothing to do.
+2025-10-19 16:16:13,980 : DEBUG : ModalContext :  : Node : Variable Creator : 5:4 : Configure succeeded. (Variable Creator)
+2025-10-19 16:16:13,981 : DEBUG : ModalContext :  : Node : Try (Variable Ports) : 5:6 : Configure succeeded. (Try (Variable Ports))
+2025-10-19 16:16:14,034 : DEBUG : ModalContext :  : Node : Call Workflow Service : 5:1 : Configure succeeded. (Call Workflow Service)
+2025-10-19 16:16:14,035 : DEBUG : ModalContext :  : Node : Call Workflow Service : 5:2 : Configure succeeded. (Call Workflow Service)
+2025-10-19 16:16:14,036 : DEBUG : ModalContext :  : Node : Call Workflow Service : 5:8 : Configure succeeded. (Call Workflow Service)
+2025-10-19 18:45:21,588 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : No file store handler set on "Variable Creator" (possibly running in 3rd party executor)
+2025-10-19 18:45:21,590 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:21,594 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Variable Creator : 5:4 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:21,595 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:22,349 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : No file store handler set on "Variable Creator" (possibly running in 3rd party executor)
+2025-10-19 18:45:22,350 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:22,350 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Variable Creator : 5:4 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:22,352 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:22,352 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Variable Creator : 5:4 : New batch of to-be-rendered images started for table with id 'flowvariableview5:4'.
+2025-10-19 18:45:22,352 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:22,353 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Variable Creator : 5:4 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Variable Creator : 5:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : KNIME Buffer cache statistics:
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	2 tables currently held in cache
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	44 distinct tables cached
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	35 tables invalidated successfully
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	7 tables dropped by garbage collector
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	68 cache hits (hard-referenced)
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	26 cache hits (softly referenced)
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	0 cache hits (weakly referenced)
+2025-10-19 18:45:22,354 : DEBUG : comm-pool-thread-6 :  : BufferCache : Variable Creator : 5:4 : 	0 cache misses
+2025-10-19 18:45:26,320 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : No file store handler set on "Try (Variable Ports)" (possibly running in 3rd party executor)
+2025-10-19 18:45:26,320 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:26,321 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Try (Variable Ports) : 5:6 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:26,321 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:26,561 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : No file store handler set on "Try (Variable Ports)" (possibly running in 3rd party executor)
+2025-10-19 18:45:26,561 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:26,561 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Try (Variable Ports) : 5:6 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:26,562 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:26,562 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Try (Variable Ports) : 5:6 : New batch of to-be-rendered images started for table with id 'flowvariableview5:6'.
+2025-10-19 18:45:26,562 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:26,563 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Try (Variable Ports) : 5:6 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:26,564 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Try (Variable Ports) : 5:6 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:28,564 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:28,564 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:28,564 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:28,565 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:28,834 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:28,835 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:28,835 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:28,836 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:28,836 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Call Workflow Service : 5:1 : New batch of to-be-rendered images started for table with id 'flowvariableview5:1'.
+2025-10-19 18:45:28,836 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:28,836 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:28,838 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:29,820 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:29,820 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:29,821 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:29,822 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:30,080 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:30,080 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:30,080 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:30,081 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:30,081 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Call Workflow Service : 5:2 : New batch of to-be-rendered images started for table with id 'flowvariableview5:2'.
+2025-10-19 18:45:30,081 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:30,082 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:30,083 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:30,816 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:30,816 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:30,819 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:8 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:30,819 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:31,068 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:31,069 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:31,069 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:8 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:31,069 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:31,069 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Call Workflow Service : 5:8 : New batch of to-be-rendered images started for table with id 'flowvariableview5:8'.
+2025-10-19 18:45:31,070 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:31,070 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:8 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:31,070 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:32,460 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : No file store handler set on "Catch Errors (Var Ports)" (possibly running in 3rd party executor)
+2025-10-19 18:45:32,460 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:32,460 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Catch Errors (Var Ports) : 5:7 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:32,461 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:32,719 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : No file store handler set on "Catch Errors (Var Ports)" (possibly running in 3rd party executor)
+2025-10-19 18:45:32,719 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:32,721 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Catch Errors (Var Ports) : 5:7 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:32,721 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:32,721 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Catch Errors (Var Ports) : 5:7 : New batch of to-be-rendered images started for table with id 'flowvariableview5:7'.
+2025-10-19 18:45:32,721 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:32,722 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Catch Errors (Var Ports) : 5:7 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:32,722 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Catch Errors (Var Ports) : 5:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:33,755 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:33,755 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:33,756 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:33,756 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:34,002 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : No file store handler set on "Call Workflow Service" (possibly running in 3rd party executor)
+2025-10-19 18:45:34,002 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:34,002 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:34,003 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:34,003 : DEBUG : comm-pool-thread-6 :  : DataValueImageRendererRegistry : Call Workflow Service : 5:1 : New batch of to-be-rendered images started for table with id 'flowvariableview5:1'.
+2025-10-19 18:45:34,003 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:45:34,003 : DEBUG : comm-pool-thread-6 :  : BufferSettings : Call Workflow Service : 5:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:45:34,004 : DEBUG : comm-pool-thread-6 :  : ExecutionContext : Call Workflow Service : 5:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:15,905 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : WorkflowManager : Variable Creator : 5:4 : Variable Creator 5:4 doBeforePreExecution
+2025-10-19 18:56:15,905 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : NodeContainer : Variable Creator : 5:4 : Variable Creator 5:4 has new state: PREEXECUTE
+2025-10-19 18:56:15,905 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : WorkflowDataRepository : Variable Creator : 5:4 : Adding handler da78caab-26f4-4b03-98a6-ccf8b69c2a2c (Variable Creator 5:4: <no directory>) - 1 in total
+2025-10-19 18:56:15,905 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : WorkflowManager : Variable Creator : 5:4 : Variable Creator 5:4 doBeforeExecution
+2025-10-19 18:56:15,905 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : NodeContainer : Variable Creator : 5:4 : Variable Creator 5:4 has new state: EXECUTING
+2025-10-19 18:56:15,905 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : LocalNodeExecutionJob : Variable Creator : 5:4 : Variable Creator 5:4 Start execute
+2025-10-19 18:56:15,906 : INFO  : KNIME-Worker-11-Variable Creator 5:4 :  : LocalNodeExecutionJob : Variable Creator : 5:4 : Variable Creator 5:4 End execute (0 secs)
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : WorkflowManager : Variable Creator : 5:4 : Variable Creator 5:4 doBeforePostExecution
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : NodeContainer : Variable Creator : 5:4 : Variable Creator 5:4 has new state: POSTEXECUTE
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : WorkflowManager : Variable Creator : 5:4 : Variable Creator 5:4 doAfterExecute - success
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : NodeContainer : Variable Creator : 5:4 : Variable Creator 5:4 has new state: EXECUTED
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : Node : Try (Variable Ports) : 5:6 : Configure succeeded. (Try (Variable Ports))
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-11-Variable Creator 5:4 :  : NodeContainer : Variable Creator : 5:4 : Try (Variable Ports) 5:6 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:15,906 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : WorkflowManager : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 doBeforePreExecution
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : NodeContainer : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 has new state: PREEXECUTE
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : WorkflowDataRepository : Try (Variable Ports) : 5:6 : Adding handler b4a26fc2-ce7b-4111-b27b-6cd2cc3ea1ae (Try (Variable Ports) 5:6: <no directory>) - 2 in total
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : WorkflowManager : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 doBeforeExecution
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : NodeContainer : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 has new state: EXECUTING
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : LocalNodeExecutionJob : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 Start execute
+2025-10-19 18:56:15,907 : INFO  : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : LocalNodeExecutionJob : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 End execute (0 secs)
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : WorkflowManager : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 doBeforePostExecution
+2025-10-19 18:56:15,907 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : NodeContainer : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 has new state: POSTEXECUTE
+2025-10-19 18:56:15,908 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : WorkflowManager : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 doAfterExecute - success
+2025-10-19 18:56:15,908 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : NodeContainer : Try (Variable Ports) : 5:6 : Try (Variable Ports) 5:6 has new state: EXECUTED
+2025-10-19 18:56:15,908 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : Node : Call Workflow Service : 5:1 : Configure succeeded. (Call Workflow Service)
+2025-10-19 18:56:15,908 : DEBUG : KNIME-Worker-10-Try (Variable Ports) 5:6 :  : NodeContainer : Try (Variable Ports) : 5:6 : Call Workflow Service 5:1 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:15,908 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Call Workflow Service 5:1 doBeforePreExecution
+2025-10-19 18:56:15,908 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Call Workflow Service 5:1 has new state: PREEXECUTE
+2025-10-19 18:56:15,909 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowDataRepository : Call Workflow Service : 5:1 : Adding handler 27e64bdb-62e5-411e-a44d-875b258d961b (Call Workflow Service 5:1: <no directory>) - 3 in total
+2025-10-19 18:56:15,909 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Call Workflow Service 5:1 doBeforeExecution
+2025-10-19 18:56:15,909 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Call Workflow Service 5:1 has new state: EXECUTING
+2025-10-19 18:56:15,909 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : LocalNodeExecutionJob : Call Workflow Service : 5:1 : Call Workflow Service 5:1 Start execute
+2025-10-19 18:56:16,271 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Loading workflow from "C:\Users\gonca\Desktop\TP01-ISI-KNIME\GetWinesFromAPI" (version "V5100" with loader class "FileWorkflowPersistor")
+2025-10-19 18:56:16,278 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeLogger : Call Workflow Service : 5:1 : Incrementing count for workflow log appender: "C:\Users\gonca\Desktop\TP01-ISI-KNIME\GetWinesFromAPI"
+2025-10-19 18:56:16,278 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowResourceCache : Call Workflow Service : 5:1 : Added new cache entry for class "class org.knime.core.node.workflow.WorkflowManager$WorkflowLogCleanup"
+2025-10-19 18:56:16,278 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Created subworkflow 7
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:148(1) to node 7:149(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:150(1) to node 7:151(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:154(1) to node 7:155(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:157(1) to node 7:156(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:146(1) to node 7:144(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:121(1) to node 7:122(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:126(1) to node 7:125(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:149(1) to node 7:150(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:153(1) to node 7:154(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:138(1) to node 7:142(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:129(1) to node 7:132(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:131(1) to node 7:134(1)
+2025-10-19 18:56:16,883 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:152(1) to node 7:157(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:132(1) to node 7:130(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:133(1) to node 7:131(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:130(1) to node 7:133(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:147(1) to node 7:148(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:155(1) to node 7:156(0)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:123(1) to node 7:118(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:151(1) to node 7:152(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:143(1) to node 7:158(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:157(1) to node 7:143(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:137(1) to node 7:159(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:142(1) to node 7:153(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:142(1) to node 7:146(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:123(1) to node 7:24(1)
+2025-10-19 18:56:16,885 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:24(1) to node 7:124(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:159(1) to node 7:123(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:24(1) to node 7:126(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:158(1) to node 7:119(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:144(1) to node 7:160(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:122(1) to node 7:137(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:160(1) to node 7:147(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:119(1) to node 7:129(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:123(1) to node 7:128(1)
+2025-10-19 18:56:16,886 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Added new connection from node 7:134(1) to node 7:121(1)
+2025-10-19 18:56:17,219 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : HiLiteHandler : Call Workflow Service : 5:1 : Adding hilite translator to handler 3d078bbc-dbdb-44c0-8f19-bf066457c990
+2025-10-19 18:56:17,219 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : HiLiteHandler : Call Workflow Service : 5:1 : Adding hilite translator to handler 6a83e25c-e191-4dad-aee8-4a9247e08c6b
+2025-10-19 18:56:17,227 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Loaded workflow from "C:\Users\gonca\Desktop\TP01-ISI-KNIME\GetWinesFromAPI"  with no errors
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Table Creator 7:138
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on GetWinesFromAPI 7
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Table Creator 7:138 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Table Creator 7:138 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Group Loop Start 7:142
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Group Loop Start 7:142 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String Manipulation 7:146
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String Manipulation 7:146 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String Manipulation 7:144
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String Manipulation 7:144 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String Manipulation 7:160
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String Manipulation 7:160 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String to URI 7:147
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String to URI 7:147 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on GET Request 7:148
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : GET Request 7:148 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on JSON Path 7:149
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : JSON Path 7:149 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Ungroup 7:150
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Ungroup 7:150 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Column Filter 7:151
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Column Filter 7:151 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Column Resorter 7:152
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Column Resorter 7:152 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Number to String 7:157
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Number to String 7:157 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Loop End 7:143
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Loop End 7:143 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String Manipulation 7:158
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String Manipulation 7:158 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String Manipulation 7:119
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String Manipulation 7:119 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Rule Engine 7:129
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Rule Engine 7:129 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Rule Engine 7:132
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Rule Engine 7:132 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Rule Engine 7:130
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Rule Engine 7:130 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Rule Engine 7:133
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Rule Engine 7:133 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Rule Engine 7:131
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Rule Engine 7:131 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Rule Engine 7:134
+2025-10-19 18:56:17,235 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Rule Engine 7:134 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Cell Splitter 7:121
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Cell Splitter 7:121 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Column Renamer 7:122
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Column Renamer 7:122 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Missing Value 7:137
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Missing Value 7:137 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Column Filter 7:159
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Column Filter 7:159 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Column Resorter 7:123
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Column Resorter 7:123 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Columns to JSON 7:24
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Columns to JSON 7:24 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on JSON Row Combiner and Writer 7:124
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : JSON Row Combiner and Writer 7:124 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on JSON to XML 7:126
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : JSON to XML 7:126 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on XML Row Combine and Write 7:125
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : XML Row Combine and Write 7:125 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Table View 7:128
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Table View 7:128 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on CSV Writer 7:118
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : CSV Writer 7:118 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String Manipulation 7:153
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String Manipulation 7:153 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on String to Path 7:154
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : String to Path 7:154 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on Table Row to Variable 7:155
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Table Row to Variable 7:155 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Setting dirty flag on CSV Writer 7:156
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : CSV Writer 7:156 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:17,236 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : GetWinesFromAPI 7 has new state: EXECUTING
+2025-10-19 18:56:27,580 : INFO  : KNIME-Worker-12-Call Workflow Service 5:1 :  : LocalNodeExecutionJob : Call Workflow Service : 5:1 : Call Workflow Service 5:1 End execute (11 secs)
+2025-10-19 18:56:27,580 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Call Workflow Service 5:1 doBeforePostExecution
+2025-10-19 18:56:27,580 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Call Workflow Service 5:1 has new state: POSTEXECUTE
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : WorkflowManager : Call Workflow Service : 5:1 : Call Workflow Service 5:1 doAfterExecute - success
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Call Workflow Service 5:1 has new state: EXECUTED
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : Node : Call Workflow Service : 5:2 : Configure succeeded. (Call Workflow Service)
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-12-Call Workflow Service 5:1 :  : NodeContainer : Call Workflow Service : 5:1 : Call Workflow Service 5:2 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Call Workflow Service 5:2 doBeforePreExecution
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Call Workflow Service 5:2 has new state: PREEXECUTE
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowDataRepository : Call Workflow Service : 5:2 : Adding handler 391d10ab-5d51-4f09-86f5-f85cc24783ae (Call Workflow Service 5:2: <no directory>) - 4 in total
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Call Workflow Service 5:2 doBeforeExecution
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Call Workflow Service 5:2 has new state: EXECUTING
+2025-10-19 18:56:27,581 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : LocalNodeExecutionJob : Call Workflow Service : 5:2 : Call Workflow Service 5:2 Start execute
+2025-10-19 18:56:27,590 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Loading workflow from "C:\Users\gonca\Desktop\TP01-ISI-KNIME\FilteredDataset" (version "V5100" with loader class "FileWorkflowPersistor")
+2025-10-19 18:56:27,595 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeLogger : Call Workflow Service : 5:2 : Incrementing count for workflow log appender: "C:\Users\gonca\Desktop\TP01-ISI-KNIME\FilteredDataset"
+2025-10-19 18:56:27,595 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowResourceCache : Call Workflow Service : 5:2 : Added new cache entry for class "class org.knime.core.node.workflow.WorkflowManager$WorkflowLogCleanup"
+2025-10-19 18:56:27,595 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Created subworkflow 8
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:16(1) to node 8:17(1)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:2(1) to node 8:3(1)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:8(1) to node 8:9(1)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:14(1) to node 8:15(1)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:18(1) to node 8:19(1)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:29(1) to node 8:28(0)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:31(1) to node 8:30(1)
+2025-10-19 18:56:27,695 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:34(1) to node 8:35(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:39(1) to node 8:38(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:30(1) to node 8:28(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:13(1) to node 8:14(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:17(1) to node 8:18(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:33(1) to node 8:34(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:38(1) to node 8:37(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:19(1) to node 8:23(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:35(1) to node 8:39(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:10(1) to node 8:12(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:11(1) to node 8:13(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:19(1) to node 8:21(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:27(1) to node 8:29(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:12(1) to node 8:11(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:19(1) to node 8:20(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:35(1) to node 8:36(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:23(1) to node 8:31(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:23(1) to node 8:27(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:14(1) to node 8:16(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:15(1) to node 8:16(2)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:1(1) to node 8:33(1)
+2025-10-19 18:56:27,696 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:3(1) to node 8:32(1)
+2025-10-19 18:56:27,697 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:32(1) to node 8:5(1)
+2025-10-19 18:56:27,697 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:37(1) to node 8:2(1)
+2025-10-19 18:56:27,697 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Added new connection from node 8:32(1) to node 8:8(1)
+2025-10-19 18:56:27,701 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 179c0cac-19a2-4ae4-8123-4814406f5628
+2025-10-19 18:56:27,701 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler d2c9c756-bd33-4b9d-823f-a5c05c115752
+2025-10-19 18:56:27,705 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 2bac7a62-0449-4a96-bffd-a55ee0ed2ab8
+2025-10-19 18:56:27,706 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 2bac7a62-0449-4a96-bffd-a55ee0ed2ab8
+2025-10-19 18:56:27,706 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 2bac7a62-0449-4a96-bffd-a55ee0ed2ab8
+2025-10-19 18:56:27,707 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 2bac7a62-0449-4a96-bffd-a55ee0ed2ab8
+2025-10-19 18:56:27,707 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 7340e9e9-f819-4e25-9076-f2c59dcb8fd8
+2025-10-19 18:56:27,707 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 7340e9e9-f819-4e25-9076-f2c59dcb8fd8
+2025-10-19 18:56:27,707 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : HiLiteHandler : Call Workflow Service : 5:2 : Adding hilite translator to handler 7340e9e9-f819-4e25-9076-f2c59dcb8fd8
+2025-10-19 18:56:27,725 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Loaded workflow from "C:\Users\gonca\Desktop\TP01-ISI-KNIME\FilteredDataset"  with no errors
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on XML Reader 8:10
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on FilteredDataset 8
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : XML Reader 8:10 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : XML Reader 8:10 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on XPath 8:12
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : XPath 8:12 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Ungroup 8:11
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Ungroup 8:11 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Column Filter 8:13
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Column Filter 8:13 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Row Filter 8:14
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Row Filter 8:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on GroupBy 8:15
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : GroupBy 8:15 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Joiner 8:16
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Joiner 8:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Sorter 8:17
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Sorter 8:17 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Column Filter 8:18
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Column Filter 8:18 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Group Loop Start 8:19
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Group Loop Start 8:19 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on String Manipulation 8:23
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : String Manipulation 8:23 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on String to Path 8:27
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : String to Path 8:27 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Table Row to Variable 8:29
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Table Row to Variable 8:29 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Column Filter 8:31
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Column Filter 8:31 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Sorter 8:30
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Sorter 8:30 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on CSV Writer 8:28
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : CSV Writer 8:28 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on CSV Reader 8:1
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : CSV Reader 8:1 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : CSV Reader 8:1 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on String Manipulation (Multi Column) 8:33
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : String Manipulation (Multi Column) 8:33 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on String Manipulation (Multi Column) 8:34
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : String Manipulation (Multi Column) 8:34 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Rule Engine 8:35
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Rule Engine 8:35 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Rule Engine 8:39
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Rule Engine 8:39 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on String Manipulation (Multi Column) 8:38
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : String Manipulation (Multi Column) 8:38 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on String Manipulation (Multi Column) 8:37
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : String Manipulation (Multi Column) 8:37 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Row Filter 8:2
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Row Filter 8:2 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Column Filter 8:3
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Column Filter 8:3 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Column Resorter 8:32
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Column Resorter 8:32 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Excel Writer 8:5
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Excel Writer 8:5 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Columns to JSON 8:8
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Columns to JSON 8:8 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on JSON Row Combiner and Writer 8:9
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : JSON Row Combiner and Writer 8:9 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Table View 8:20
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Table View 8:20 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on Loop End 8:21
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Loop End 8:21 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Setting dirty flag on CSV Writer 8:36
+2025-10-19 18:56:27,726 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : CSV Writer 8:36 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:27,728 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : FilteredDataset 8 has new state: EXECUTING
+2025-10-19 18:56:28,524 : INFO  : KNIME-Worker-10-Call Workflow Service 5:2 :  : LocalNodeExecutionJob : Call Workflow Service : 5:2 : Call Workflow Service 5:2 End execute (0 secs)
+2025-10-19 18:56:28,524 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Call Workflow Service 5:2 doBeforePostExecution
+2025-10-19 18:56:28,524 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Call Workflow Service 5:2 has new state: POSTEXECUTE
+2025-10-19 18:56:28,524 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : WorkflowManager : Call Workflow Service : 5:2 : Call Workflow Service 5:2 doAfterExecute - success
+2025-10-19 18:56:28,524 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Call Workflow Service 5:2 has new state: EXECUTED
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : Node : Call Workflow Service : 5:8 : Configure succeeded. (Call Workflow Service)
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-10-Call Workflow Service 5:2 :  : NodeContainer : Call Workflow Service : 5:2 : Call Workflow Service 5:8 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Call Workflow Service 5:8 doBeforePreExecution
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Call Workflow Service 5:8 has new state: PREEXECUTE
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowDataRepository : Call Workflow Service : 5:8 : Adding handler bac69706-5336-48ac-897f-616f443fc45c (Call Workflow Service 5:8: <no directory>) - 5 in total
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Call Workflow Service 5:8 doBeforeExecution
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Call Workflow Service 5:8 has new state: EXECUTING
+2025-10-19 18:56:28,525 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : LocalNodeExecutionJob : Call Workflow Service : 5:8 : Call Workflow Service 5:8 Start execute
+2025-10-19 18:56:28,551 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Loading workflow from "C:\Users\gonca\Desktop\TP01-ISI-KNIME\SendEmail" (version "V5100" with loader class "FileWorkflowPersistor")
+2025-10-19 18:56:28,568 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeLogger : Call Workflow Service : 5:8 : Incrementing count for workflow log appender: "C:\Users\gonca\Desktop\TP01-ISI-KNIME\SendEmail"
+2025-10-19 18:56:28,568 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowResourceCache : Call Workflow Service : 5:8 : Added new cache entry for class "class org.knime.core.node.workflow.WorkflowManager$WorkflowLogCleanup"
+2025-10-19 18:56:28,568 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Created subworkflow 9
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:2(1) to node 9:3(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:8(1) to node 9:9(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:15(1) to node 9:14(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:7(1) to node 9:5(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:1(1) to node 9:2(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:4(1) to node 9:7(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:5(1) to node 9:6(1)
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:9(1) to node 9:12(1)
+2025-10-19 18:56:28,800 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:10(1) to node 9:15(1)
+2025-10-19 18:56:28,800 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:12(1) to node 9:10(1)
+2025-10-19 18:56:28,800 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Added new connection from node 9:3(1) to node 9:4(1)
+2025-10-19 18:56:28,953 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : HiLiteHandler : Call Workflow Service : 5:8 : Adding hilite translator to handler ab4253ea-5efd-4003-a904-66f2fc4fd66e
+2025-10-19 18:56:28,953 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : HiLiteHandler : Call Workflow Service : 5:8 : Adding hilite translator to handler 94f73dd9-39f0-4fc3-9f23-e8d8d2c7fd1e
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Loaded workflow from "C:\Users\gonca\Desktop\TP01-ISI-KNIME\SendEmail"  with no errors
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on Excel Reader 9:1
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on SendEmail 9
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Excel Reader 9:1 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Excel Reader 9:1 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on String Manipulation 9:2
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : String Manipulation 9:2 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on GroupBy 9:3
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : GroupBy 9:3 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on String Manipulation 9:4
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : String Manipulation 9:4 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,037 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on String Manipulation 9:7
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : String Manipulation 9:7 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on Table Row to Variable 9:5
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Table Row to Variable 9:5 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on Send Email 9:6
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Send Email 9:6 has new state: UNCONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on CSV Reader 9:8
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : CSV Reader 9:8 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : CSV Reader 9:8 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on String Manipulation 9:9
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : String Manipulation 9:9 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on GroupBy 9:12
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : GroupBy 9:12 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on String Manipulation 9:10
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : String Manipulation 9:10 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on Table Row to Variable 9:15
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Table Row to Variable 9:15 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Setting dirty flag on Send Email 9:14
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Send Email 9:14 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : SendEmail 9 has new state: EXECUTING
+2025-10-19 18:56:31,219 : INFO  : KNIME-Worker-9-Call Workflow Service 5:8 :  : LocalNodeExecutionJob : Call Workflow Service : 5:8 : Call Workflow Service 5:8 End execute (2 secs)
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Call Workflow Service 5:8 doBeforePostExecution
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Call Workflow Service 5:8 has new state: POSTEXECUTE
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : WorkflowManager : Call Workflow Service : 5:8 : Call Workflow Service 5:8 doAfterExecute - success
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : Call Workflow Service 5:8 has new state: EXECUTED
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : NodeContainer : Call Workflow Service : 5:8 : ETL_Job 5 has new state: IDLE
+2025-10-19 19:01:46,668 : DEBUG : main :  : Node : Catch Errors (Var Ports) : 5:7 : clean output ports.
+2025-10-19 19:01:46,668 : DEBUG : main :  : Node : Call Workflow Service : 5:8 : clean output ports.
+2025-10-19 19:01:46,668 : DEBUG : main :  : WorkflowDataRepository : Call Workflow Service : 5:8 : Removing handler bac69706-5336-48ac-897f-616f443fc45c (Call Workflow Service 5:8: <no directory>) - 4 remaining
+2025-10-19 19:01:46,668 : DEBUG : main :  : Node : Call Workflow Service : 5:2 : clean output ports.
+2025-10-19 19:01:46,668 : DEBUG : main :  : WorkflowDataRepository : Call Workflow Service : 5:2 : Removing handler 391d10ab-5d51-4f09-86f5-f85cc24783ae (Call Workflow Service 5:2: <no directory>) - 3 remaining
+2025-10-19 19:01:46,668 : DEBUG : main :  : Node : Call Workflow Service : 5:1 : clean output ports.
+2025-10-19 19:01:46,668 : DEBUG : main :  : WorkflowDataRepository : Call Workflow Service : 5:1 : Removing handler 27e64bdb-62e5-411e-a44d-875b258d961b (Call Workflow Service 5:1: <no directory>) - 2 remaining
+2025-10-19 19:01:46,668 : DEBUG : main :  : Node : Try (Variable Ports) : 5:6 : clean output ports.
+2025-10-19 19:01:46,668 : DEBUG : main :  : WorkflowDataRepository : Try (Variable Ports) : 5:6 : Removing handler b4a26fc2-ce7b-4111-b27b-6cd2cc3ea1ae (Try (Variable Ports) 5:6: <no directory>) - 1 remaining
+2025-10-19 19:01:46,668 : DEBUG : main :  : Node : Variable Creator : 5:4 : clean output ports.
+2025-10-19 19:01:46,668 : DEBUG : main :  : WorkflowDataRepository : Variable Creator : 5:4 : Removing handler da78caab-26f4-4b03-98a6-ccf8b69c2a2c (Variable Creator 5:4: <no directory>) - 0 remaining

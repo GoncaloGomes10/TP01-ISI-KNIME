@@ -13859,3 +13859,683 @@ java.lang.Exception
 2025-10-17 18:53:22,424 : DEBUG : main :  : Node : String Manipulation : 6:2 : clean output ports.
 2025-10-17 18:53:22,424 : DEBUG : main :  : Node : CSV Reader : 6:8 : clean output ports.
 2025-10-17 18:53:22,424 : DEBUG : main :  : Node : Excel Reader : 6:1 : clean output ports.
+2025-10-18 01:42:14,388 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,397 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,402 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,403 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 4 : Adding hilite translator to handler 08bb9830-4c47-457e-adb3-c88ab7c6d591
+2025-10-18 01:42:14,407 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,413 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,417 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,421 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,427 : DEBUG : ModalContext :  : CSVTableReaderNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,435 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,439 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,441 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,441 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 4 : Adding hilite translator to handler c864ef13-e8f4-40bb-8a44-d15dba484a66
+2025-10-18 01:42:14,447 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,452 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 4 : Factory is already initialized. Nothing to do.
+2025-10-18 01:42:14,476 : WARN  : ModalContext :  : Node : Excel Reader : 4:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-18 01:42:14,479 : WARN  : ModalContext :  : Node : Excel Reader : 4:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-18 01:42:14,479 : DEBUG : ModalContext :  : Node : Excel Reader : 4:1 : Configure succeeded. (Excel Reader)
+2025-10-18 01:42:14,487 : DEBUG : ModalContext :  : Node : CSV Reader : 4:8 : Configure succeeded. (CSV Reader)
+2025-10-18 01:42:14,685 : DEBUG : ModalContext :  : Node : String Manipulation : 4:9 : Configure succeeded. (String Manipulation)
+2025-10-18 01:42:14,757 : WARN  : ModalContext :  : Node : GroupBy : 4:12 : No grouping column included. Aggregate complete table.
+2025-10-18 01:42:14,758 : WARN  : ModalContext :  : Node : GroupBy : 4:12 : No grouping column included. Aggregate complete table.
+2025-10-18 01:42:14,758 : DEBUG : ModalContext :  : GroupByNodeModel : GroupBy : 4:12 : [html->Concatenate true]
+2025-10-18 01:42:14,761 : DEBUG : ModalContext :  : Node : GroupBy : 4:12 : Configure succeeded. (GroupBy)
+2025-10-18 01:42:14,907 : DEBUG : ModalContext :  : Node : String Manipulation : 4:10 : Configure succeeded. (String Manipulation)
+2025-10-18 01:42:14,923 : DEBUG : ModalContext :  : Node : Table Row to Variable : 4:15 : Configure succeeded. (Table Row to Variable)
+2025-10-18 01:42:14,942 : DEBUG : ModalContext :  : Node : Send Email : 4:14 : Configure succeeded. (Send Email)
+2025-10-18 01:49:31,578 : DEBUG : main :  : Node : Send Email : 4:6 : clean output ports.
+2025-10-18 01:49:31,578 : DEBUG : main :  : Node : Send Email : 4:14 : clean output ports.
+2025-10-18 01:49:31,578 : DEBUG : main :  : Node : Table Row to Variable : 4:5 : clean output ports.
+2025-10-18 01:49:31,578 : DEBUG : main :  : Node : Table Row to Variable : 4:15 : clean output ports.
+2025-10-18 01:49:31,578 : DEBUG : main :  : Node : String Manipulation : 4:7 : clean output ports.
+2025-10-18 01:49:31,581 : DEBUG : main :  : Node : String Manipulation : 4:10 : clean output ports.
+2025-10-18 01:49:31,581 : DEBUG : main :  : Node : String Manipulation : 4:4 : clean output ports.
+2025-10-18 01:49:31,581 : DEBUG : main :  : Node : GroupBy : 4:12 : clean output ports.
+2025-10-18 01:49:31,581 : DEBUG : main :  : Node : GroupBy : 4:3 : clean output ports.
+2025-10-18 01:49:31,584 : DEBUG : main :  : Node : String Manipulation : 4:9 : clean output ports.
+2025-10-18 01:49:31,585 : DEBUG : main :  : Node : String Manipulation : 4:2 : clean output ports.
+2025-10-18 01:49:31,585 : DEBUG : main :  : Node : CSV Reader : 4:8 : clean output ports.
+2025-10-18 01:49:31,585 : DEBUG : main :  : Node : Excel Reader : 4:1 : clean output ports.
+2025-10-18 02:28:08,478 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,537 : DEBUG : ModalContext :  : JavaSnippetActivator : SendEmail : 3 : Cached custom type classpaths [48 ms]
+2025-10-18 02:28:08,542 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,548 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,548 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 3 : Adding hilite translator to handler 0f6997db-dc0f-4797-bb7b-2c3eb115d9de
+2025-10-18 02:28:08,553 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,564 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,571 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,575 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,581 : DEBUG : ModalContext :  : CSVTableReaderNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,586 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,591 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,595 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,595 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 3 : Adding hilite translator to handler f153bdff-c0e1-4e05-bd12-74a7765b780b
+2025-10-18 02:28:08,598 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,605 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-18 02:28:08,662 : WARN  : ModalContext :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-18 02:28:08,670 : WARN  : ModalContext :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-18 02:28:08,670 : DEBUG : ModalContext :  : Node : Excel Reader : 3:1 : Configure succeeded. (Excel Reader)
+2025-10-18 02:28:08,678 : DEBUG : ModalContext :  : Node : CSV Reader : 3:8 : Configure succeeded. (CSV Reader)
+2025-10-18 02:28:09,821 : DEBUG : ModalContext :  : Node : String Manipulation : 3:9 : Configure succeeded. (String Manipulation)
+2025-10-18 02:28:09,883 : WARN  : ModalContext :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-18 02:28:09,884 : WARN  : ModalContext :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-18 02:28:09,886 : DEBUG : ModalContext :  : GroupByNodeModel : GroupBy : 3:12 : [html->Concatenate true]
+2025-10-18 02:28:09,887 : DEBUG : ModalContext :  : Node : GroupBy : 3:12 : Configure succeeded. (GroupBy)
+2025-10-18 02:28:10,039 : DEBUG : ModalContext :  : Node : String Manipulation : 3:10 : Configure succeeded. (String Manipulation)
+2025-10-18 02:28:10,057 : DEBUG : ModalContext :  : Node : Table Row to Variable : 3:15 : Configure succeeded. (Table Row to Variable)
+2025-10-18 02:28:10,080 : DEBUG : ModalContext :  : Node : Send Email : 3:14 : Configure succeeded. (Send Email)
+2025-10-18 02:28:16,205 : DEBUG : main :  : DesktopAPI : String Manipulation : 3:2 : Desktop API function successfully called: setUserProfilePart
+2025-10-18 02:28:47,492 : DEBUG : main :  : Node : Send Email : 3:6 : clean output ports.
+2025-10-18 02:28:47,493 : DEBUG : main :  : Node : Send Email : 3:14 : clean output ports.
+2025-10-18 02:28:47,493 : DEBUG : main :  : Node : Table Row to Variable : 3:5 : clean output ports.
+2025-10-18 02:28:47,493 : DEBUG : main :  : Node : Table Row to Variable : 3:15 : clean output ports.
+2025-10-18 02:28:47,493 : DEBUG : main :  : Node : String Manipulation : 3:7 : clean output ports.
+2025-10-18 02:28:47,495 : DEBUG : main :  : Node : String Manipulation : 3:10 : clean output ports.
+2025-10-18 02:28:47,495 : DEBUG : main :  : Node : String Manipulation : 3:4 : clean output ports.
+2025-10-18 02:28:47,495 : DEBUG : main :  : Node : GroupBy : 3:12 : clean output ports.
+2025-10-18 02:28:47,495 : DEBUG : main :  : Node : GroupBy : 3:3 : clean output ports.
+2025-10-18 02:28:47,497 : DEBUG : main :  : Node : String Manipulation : 3:9 : clean output ports.
+2025-10-18 02:28:47,497 : DEBUG : main :  : Node : String Manipulation : 3:2 : clean output ports.
+2025-10-18 02:28:47,497 : DEBUG : main :  : Node : CSV Reader : 3:8 : clean output ports.
+2025-10-18 02:28:47,497 : DEBUG : main :  : Node : Excel Reader : 3:1 : clean output ports.
+2025-10-19 14:14:56,866 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:56,968 : DEBUG : ModalContext :  : JavaSnippetActivator : SendEmail : 3 : Cached custom type classpaths [65 ms]
+2025-10-19 14:14:56,974 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,006 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,006 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 3 : Adding hilite translator to handler 1a29fe6f-4e2f-4b8d-93ee-de72da7017b2
+2025-10-19 14:14:57,031 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,059 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,085 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,112 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,136 : DEBUG : ModalContext :  : CSVTableReaderNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,163 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,185 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,209 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,209 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 3 : Adding hilite translator to handler 2efa3ce2-c27d-4e36-8149-2dd7dd75779f
+2025-10-19 14:14:57,233 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,259 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 14:14:57,309 : WARN  : ModalContext :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-19 14:14:57,315 : WARN  : ModalContext :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-19 14:14:57,315 : DEBUG : ModalContext :  : Node : Excel Reader : 3:1 : Configure succeeded. (Excel Reader)
+2025-10-19 14:14:57,323 : DEBUG : ModalContext :  : Node : CSV Reader : 3:8 : Configure succeeded. (CSV Reader)
+2025-10-19 14:14:58,770 : DEBUG : ModalContext :  : Node : String Manipulation : 3:9 : Configure succeeded. (String Manipulation)
+2025-10-19 14:14:58,933 : WARN  : ModalContext :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-19 14:14:58,934 : WARN  : ModalContext :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-19 14:14:58,945 : DEBUG : ModalContext :  : GroupByNodeModel : GroupBy : 3:12 : [html->Concatenate true]
+2025-10-19 14:14:58,952 : DEBUG : ModalContext :  : Node : GroupBy : 3:12 : Configure succeeded. (GroupBy)
+2025-10-19 14:14:59,164 : DEBUG : ModalContext :  : Node : String Manipulation : 3:10 : Configure succeeded. (String Manipulation)
+2025-10-19 14:14:59,180 : DEBUG : ModalContext :  : Node : Table Row to Variable : 3:15 : Configure succeeded. (Table Row to Variable)
+2025-10-19 14:14:59,213 : DEBUG : ModalContext :  : Node : Send Email : 3:14 : Configure succeeded. (Send Email)
+2025-10-19 15:21:26,976 : DEBUG : main :  : Node : Send Email : 3:6 : clean output ports.
+2025-10-19 15:21:26,977 : DEBUG : main :  : Node : Send Email : 3:14 : clean output ports.
+2025-10-19 15:21:26,977 : DEBUG : main :  : Node : Table Row to Variable : 3:5 : clean output ports.
+2025-10-19 15:21:26,977 : DEBUG : main :  : Node : Table Row to Variable : 3:15 : clean output ports.
+2025-10-19 15:21:26,977 : DEBUG : main :  : Node : String Manipulation : 3:7 : clean output ports.
+2025-10-19 15:21:26,979 : DEBUG : main :  : Node : String Manipulation : 3:10 : clean output ports.
+2025-10-19 15:21:26,979 : DEBUG : main :  : Node : String Manipulation : 3:4 : clean output ports.
+2025-10-19 15:21:26,979 : DEBUG : main :  : Node : GroupBy : 3:12 : clean output ports.
+2025-10-19 15:21:26,979 : DEBUG : main :  : Node : GroupBy : 3:3 : clean output ports.
+2025-10-19 15:21:26,981 : DEBUG : main :  : Node : String Manipulation : 3:9 : clean output ports.
+2025-10-19 15:21:26,983 : DEBUG : main :  : Node : String Manipulation : 3:2 : clean output ports.
+2025-10-19 15:21:26,983 : DEBUG : main :  : Node : CSV Reader : 3:8 : clean output ports.
+2025-10-19 15:21:26,983 : DEBUG : main :  : Node : Excel Reader : 3:1 : clean output ports.
+2025-10-19 16:07:05,635 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,799 : DEBUG : ModalContext :  : JavaSnippetActivator : SendEmail : 3 : Cached custom type classpaths [135 ms]
+2025-10-19 16:07:05,807 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,828 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,829 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 3 : Adding hilite translator to handler 6575f597-b666-4678-aa27-410842a0e690
+2025-10-19 16:07:05,839 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,877 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,886 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,892 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,919 : DEBUG : ModalContext :  : CSVTableReaderNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:05,992 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:06,000 : DEBUG : ModalContext :  : StringManipulationNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:06,006 : DEBUG : ModalContext :  : GroupByNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:06,006 : DEBUG : ModalContext :  : HiLiteHandler : SendEmail : 3 : Adding hilite translator to handler 3b7bfe06-5269-4e0d-90d1-2a5338cca0dd
+2025-10-19 16:07:06,013 : DEBUG : ModalContext :  : SendMailNodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:06,022 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : SendEmail : 3 : Factory is already initialized. Nothing to do.
+2025-10-19 16:07:06,095 : WARN  : ModalContext :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-19 16:07:06,106 : WARN  : ModalContext :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-19 16:07:06,107 : DEBUG : ModalContext :  : Node : Excel Reader : 3:1 : Configure succeeded. (Excel Reader)
+2025-10-19 16:07:06,121 : DEBUG : ModalContext :  : Node : CSV Reader : 3:8 : Configure succeeded. (CSV Reader)
+2025-10-19 16:07:08,403 : DEBUG : ModalContext :  : Node : String Manipulation : 3:9 : Configure succeeded. (String Manipulation)
+2025-10-19 16:07:08,480 : WARN  : ModalContext :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-19 16:07:08,481 : WARN  : ModalContext :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-19 16:07:08,483 : DEBUG : ModalContext :  : GroupByNodeModel : GroupBy : 3:12 : [html->Concatenate true]
+2025-10-19 16:07:08,484 : DEBUG : ModalContext :  : Node : GroupBy : 3:12 : Configure succeeded. (GroupBy)
+2025-10-19 16:07:08,669 : DEBUG : ModalContext :  : Node : String Manipulation : 3:10 : Configure succeeded. (String Manipulation)
+2025-10-19 16:07:08,693 : DEBUG : ModalContext :  : Node : Table Row to Variable : 3:15 : Configure succeeded. (Table Row to Variable)
+2025-10-19 16:07:08,717 : DEBUG : ModalContext :  : Node : Send Email : 3:14 : Configure succeeded. (Send Email)
+2025-10-19 18:55:48,173 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : WorkflowManager : CSV Reader : 3:8 : CSV Reader 3:8 doBeforePreExecution
+2025-10-19 18:55:48,173 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : NodeContainer : CSV Reader : 3:8 : CSV Reader 3:8 has new state: PREEXECUTE
+2025-10-19 18:55:48,173 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : WorkflowManager : Excel Reader : 3:1 : Excel Reader 3:1 doBeforePreExecution
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : Excel Reader 3:1 has new state: PREEXECUTE
+2025-10-19 18:55:48,173 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : WorkflowDataRepository : CSV Reader : 3:8 : Adding handler 4ae60f07-ae56-4c0c-a4d4-ddf2daf620ee (CSV Reader 3:8: <no directory>) - 1 in total
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : WorkflowDataRepository : Excel Reader : 3:1 : Adding handler ebadc22a-7c4f-4c0f-a553-735029977801 (Excel Reader 3:1: <no directory>) - 2 in total
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : WorkflowManager : CSV Reader : 3:8 : CSV Reader 3:8 doBeforeExecution
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : NodeContainer : CSV Reader : 3:8 : CSV Reader 3:8 has new state: EXECUTING
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : LocalNodeExecutionJob : CSV Reader : 3:8 : CSV Reader 3:8 Start execute
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : WorkflowManager : Excel Reader : 3:1 : Excel Reader 3:1 doBeforeExecution
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : Excel Reader 3:1 has new state: EXECUTING
+2025-10-19 18:55:48,174 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : LocalNodeExecutionJob : Excel Reader : 3:1 : Excel Reader 3:1 Start execute
+2025-10-19 18:55:48,178 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : ExecutionContext : CSV Reader : 3:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,179 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : BufferSettings : CSV Reader : 3:8 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,179 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : ExecutionContext : CSV Reader : 3:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : ExecutionContext : CSV Reader : 3:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,180 : INFO  : KNIME-Worker-11-CSV Reader 3:8 :  : LocalNodeExecutionJob : CSV Reader : 3:8 : CSV Reader 3:8 End execute (0 secs)
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : WorkflowManager : CSV Reader : 3:8 : CSV Reader 3:8 doBeforePostExecution
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : NodeContainer : CSV Reader : 3:8 : CSV Reader 3:8 has new state: POSTEXECUTE
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : WorkflowManager : CSV Reader : 3:8 : CSV Reader 3:8 doAfterExecute - success
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : NodeContainer : CSV Reader : 3:8 : CSV Reader 3:8 has new state: EXECUTED
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : Node : String Manipulation : 3:9 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,180 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : NodeContainer : CSV Reader : 3:8 : String Manipulation 3:9 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,180 : WARN  : KNIME-Worker-11-CSV Reader 3:8 :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : GroupByNodeModel : GroupBy : 3:12 : [html->Concatenate true]
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-11-CSV Reader 3:8 :  : Node : GroupBy : 3:12 : Configure succeeded. (GroupBy)
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : WorkflowManager : String Manipulation : 3:9 : String Manipulation 3:9 doBeforePreExecution
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : NodeContainer : String Manipulation : 3:9 : String Manipulation 3:9 has new state: PREEXECUTE
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : WorkflowDataRepository : String Manipulation : 3:9 : Adding handler ee654d24-9f6f-48eb-8b70-17166634d5f3 (String Manipulation 3:9: <no directory>) - 3 in total
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : WorkflowManager : String Manipulation : 3:9 : String Manipulation 3:9 doBeforeExecution
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : NodeContainer : String Manipulation : 3:9 : String Manipulation 3:9 has new state: EXECUTING
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : LocalNodeExecutionJob : String Manipulation : 3:9 : String Manipulation 3:9 Start execute
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : ExecutionContext : String Manipulation : 3:9 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,181 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : ExecutionContext : String Manipulation : 3:9 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,186 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : BufferSettings : String Manipulation : 3:9 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,187 : INFO  : KNIME-Worker-8-String Manipulation 3:9 :  : LocalNodeExecutionJob : String Manipulation : 3:9 : String Manipulation 3:9 End execute (0 secs)
+2025-10-19 18:55:48,187 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : WorkflowManager : String Manipulation : 3:9 : String Manipulation 3:9 doBeforePostExecution
+2025-10-19 18:55:48,187 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : NodeContainer : String Manipulation : 3:9 : String Manipulation 3:9 has new state: POSTEXECUTE
+2025-10-19 18:55:48,187 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : WorkflowManager : String Manipulation : 3:9 : String Manipulation 3:9 doAfterExecute - success
+2025-10-19 18:55:48,187 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : NodeContainer : String Manipulation : 3:9 : String Manipulation 3:9 has new state: EXECUTED
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : HiLiteHandler : String Manipulation : 3:9 : Removing hilite translator from handler 29eb7f54-5472-467e-be44-78f6a68d35bd
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : HiLiteHandler : String Manipulation : 3:9 : Adding hilite translator to handler 3d76e88d-0ab7-41d4-be5d-3299bb5446c8
+2025-10-19 18:55:48,188 : WARN  : KNIME-Worker-8-String Manipulation 3:9 :  : Node : GroupBy : 3:12 : No grouping column included. Aggregate complete table.
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : GroupByNodeModel : GroupBy : 3:12 : [html->Concatenate true]
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : Node : GroupBy : 3:12 : Configure succeeded. (GroupBy)
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-8-String Manipulation 3:9 :  : NodeContainer : String Manipulation : 3:9 : GroupBy 3:12 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : WorkflowManager : GroupBy : 3:12 : GroupBy 3:12 doBeforePreExecution
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : NodeContainer : GroupBy : 3:12 : GroupBy 3:12 has new state: PREEXECUTE
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : WorkflowDataRepository : GroupBy : 3:12 : Adding handler dc6dc873-f7c9-42ff-8f1c-a6d356791889 (GroupBy 3:12: <no directory>) - 4 in total
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : WorkflowManager : GroupBy : 3:12 : GroupBy 3:12 doBeforeExecution
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : NodeContainer : GroupBy : 3:12 : GroupBy 3:12 has new state: EXECUTING
+2025-10-19 18:55:48,188 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : LocalNodeExecutionJob : GroupBy : 3:12 : GroupBy 3:12 Start execute
+2025-10-19 18:55:48,189 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : ExecutionContext : GroupBy : 3:12 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,189 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : ExecutionContext : GroupBy : 3:12 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,192 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : BufferSettings : GroupBy : 3:12 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,193 : INFO  : KNIME-Worker-12-GroupBy 3:12 :  : LocalNodeExecutionJob : GroupBy : 3:12 : GroupBy 3:12 End execute (0 secs)
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : WorkflowManager : GroupBy : 3:12 : GroupBy 3:12 doBeforePostExecution
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : NodeContainer : GroupBy : 3:12 : GroupBy 3:12 has new state: POSTEXECUTE
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : WorkflowManager : GroupBy : 3:12 : GroupBy 3:12 doAfterExecute - success
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : NodeContainer : GroupBy : 3:12 : GroupBy 3:12 has new state: EXECUTED
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : Node : String Manipulation : 3:10 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-12-GroupBy 3:12 :  : NodeContainer : GroupBy : 3:12 : String Manipulation 3:10 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : WorkflowManager : String Manipulation : 3:10 : String Manipulation 3:10 doBeforePreExecution
+2025-10-19 18:55:48,193 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : NodeContainer : String Manipulation : 3:10 : String Manipulation 3:10 has new state: PREEXECUTE
+2025-10-19 18:55:48,194 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : WorkflowDataRepository : String Manipulation : 3:10 : Adding handler 9c92ab73-73c1-43a4-88e9-61c8701048bb (String Manipulation 3:10: <no directory>) - 5 in total
+2025-10-19 18:55:48,194 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : WorkflowManager : String Manipulation : 3:10 : String Manipulation 3:10 doBeforeExecution
+2025-10-19 18:55:48,194 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : NodeContainer : String Manipulation : 3:10 : String Manipulation 3:10 has new state: EXECUTING
+2025-10-19 18:55:48,194 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : LocalNodeExecutionJob : String Manipulation : 3:10 : String Manipulation 3:10 Start execute
+2025-10-19 18:55:48,194 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : ExecutionContext : String Manipulation : 3:10 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,194 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : ExecutionContext : String Manipulation : 3:10 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,196 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : BufferSettings : String Manipulation : 3:10 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,196 : INFO  : KNIME-Worker-9-String Manipulation 3:10 :  : LocalNodeExecutionJob : String Manipulation : 3:10 : String Manipulation 3:10 End execute (0 secs)
+2025-10-19 18:55:48,196 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : WorkflowManager : String Manipulation : 3:10 : String Manipulation 3:10 doBeforePostExecution
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : NodeContainer : String Manipulation : 3:10 : String Manipulation 3:10 has new state: POSTEXECUTE
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : WorkflowManager : String Manipulation : 3:10 : String Manipulation 3:10 doAfterExecute - success
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : NodeContainer : String Manipulation : 3:10 : String Manipulation 3:10 has new state: EXECUTED
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : Node : Table Row to Variable : 3:15 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-9-String Manipulation 3:10 :  : NodeContainer : String Manipulation : 3:10 : Table Row to Variable 3:15 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : WorkflowManager : Table Row to Variable : 3:15 : Table Row to Variable 3:15 doBeforePreExecution
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : NodeContainer : Table Row to Variable : 3:15 : Table Row to Variable 3:15 has new state: PREEXECUTE
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : WorkflowDataRepository : Table Row to Variable : 3:15 : Adding handler ef7dfe95-be21-43fd-9c7b-f44fec211180 (Table Row to Variable 3:15: <no directory>) - 6 in total
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : WorkflowManager : Table Row to Variable : 3:15 : Table Row to Variable 3:15 doBeforeExecution
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : NodeContainer : Table Row to Variable : 3:15 : Table Row to Variable 3:15 has new state: EXECUTING
+2025-10-19 18:55:48,197 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : LocalNodeExecutionJob : Table Row to Variable : 3:15 : Table Row to Variable 3:15 Start execute
+2025-10-19 18:55:48,198 : INFO  : KNIME-Worker-11-Table Row to Variable 3:15 :  : LocalNodeExecutionJob : Table Row to Variable : 3:15 : Table Row to Variable 3:15 End execute (0 secs)
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : WorkflowManager : Table Row to Variable : 3:15 : Table Row to Variable 3:15 doBeforePostExecution
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : NodeContainer : Table Row to Variable : 3:15 : Table Row to Variable 3:15 has new state: POSTEXECUTE
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : WorkflowManager : Table Row to Variable : 3:15 : Table Row to Variable 3:15 doAfterExecute - success
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : NodeContainer : Table Row to Variable : 3:15 : Table Row to Variable 3:15 has new state: EXECUTED
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : Node : Send Email : 3:14 : Configure succeeded. (Send Email)
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-11-Table Row to Variable 3:15 :  : NodeContainer : Table Row to Variable : 3:15 : Send Email 3:14 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : WorkflowManager : Send Email : 3:14 : Send Email 3:14 doBeforePreExecution
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : NodeContainer : Send Email : 3:14 : Send Email 3:14 has new state: PREEXECUTE
+2025-10-19 18:55:48,198 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : WorkflowDataRepository : Send Email : 3:14 : Adding handler 5927c713-88db-4887-a57a-9602aba7dbc1 (Send Email 3:14: <no directory>) - 7 in total
+2025-10-19 18:55:48,199 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : WorkflowManager : Send Email : 3:14 : Send Email 3:14 doBeforeExecution
+2025-10-19 18:55:48,199 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : NodeContainer : Send Email : 3:14 : Send Email 3:14 has new state: EXECUTING
+2025-10-19 18:55:48,199 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : LocalNodeExecutionJob : Send Email : 3:14 : Send Email 3:14 Start execute
+2025-10-19 18:55:48,224 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:1 : Excel sheet parsing started
+2025-10-19 18:55:48,469 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:1 : Excel sheet parsing finished successfully
+2025-10-19 18:55:48,469 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:1 : Closing Excel sheet parser resources
+2025-10-19 18:55:48,473 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : ExecutionContext : Excel Reader : 3:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,484 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:1 : Excel sheet parsing started
+2025-10-19 18:55:48,485 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : BufferSettings : Excel Reader : 3:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,487 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:1 : Excel sheet parsing finished successfully
+2025-10-19 18:55:48,487 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:1 : Closing Excel sheet parser resources
+2025-10-19 18:55:48,488 : INFO  : KNIME-Worker-10-Excel Reader 3:1 :  : LocalNodeExecutionJob : Excel Reader : 3:1 : Excel Reader 3:1 End execute (0 secs)
+2025-10-19 18:55:48,488 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : WorkflowManager : Excel Reader : 3:1 : Excel Reader 3:1 doBeforePostExecution
+2025-10-19 18:55:48,488 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : Excel Reader 3:1 has new state: POSTEXECUTE
+2025-10-19 18:55:48,488 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : WorkflowManager : Excel Reader : 3:1 : Excel Reader 3:1 doAfterExecute - success
+2025-10-19 18:55:48,488 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : Excel Reader 3:1 has new state: EXECUTED
+2025-10-19 18:55:48,584 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : Node : String Manipulation : 3:2 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,584 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : String Manipulation 3:2 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:55:48,584 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : String Manipulation 3:2 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,585 : WARN  : KNIME-Worker-10-Excel Reader 3:1 :  : Node : GroupBy : 3:3 : No grouping column included. Aggregate complete table.
+2025-10-19 18:55:48,585 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : GroupByNodeModel : GroupBy : 3:3 : [html->Concatenate true]
+2025-10-19 18:55:48,585 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : Node : GroupBy : 3:3 : Configure succeeded. (GroupBy)
+2025-10-19 18:55:48,589 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : GroupBy 3:3 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:55:48,678 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : Node : String Manipulation : 3:4 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,678 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : String Manipulation 3:4 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:55:48,844 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : Node : String Manipulation : 3:7 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,844 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : String Manipulation 3:7 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:55:48,845 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : Node : Table Row to Variable : 3:5 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:55:48,845 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : Table Row to Variable 3:5 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:55:48,845 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : Node : Send Email : 3:6 : Configure succeeded. (Send Email)
+2025-10-19 18:55:48,845 : DEBUG : KNIME-Worker-10-Excel Reader 3:1 :  : NodeContainer : Excel Reader : 3:1 : Send Email 3:6 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : WorkflowManager : String Manipulation : 3:2 : String Manipulation 3:2 doBeforePreExecution
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : NodeContainer : String Manipulation : 3:2 : String Manipulation 3:2 has new state: PREEXECUTE
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : WorkflowDataRepository : String Manipulation : 3:2 : Adding handler f6c7d812-58a8-43e6-9cff-2a0deaf9ed8d (String Manipulation 3:2: <no directory>) - 8 in total
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : WorkflowManager : String Manipulation : 3:2 : String Manipulation 3:2 doBeforeExecution
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : NodeContainer : String Manipulation : 3:2 : String Manipulation 3:2 has new state: EXECUTING
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : LocalNodeExecutionJob : String Manipulation : 3:2 : String Manipulation 3:2 Start execute
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : ExecutionContext : String Manipulation : 3:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,848 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : ExecutionContext : String Manipulation : 3:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,853 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : BufferSettings : String Manipulation : 3:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,855 : INFO  : KNIME-Worker-12-String Manipulation 3:2 :  : LocalNodeExecutionJob : String Manipulation : 3:2 : String Manipulation 3:2 End execute (0 secs)
+2025-10-19 18:55:48,855 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : WorkflowManager : String Manipulation : 3:2 : String Manipulation 3:2 doBeforePostExecution
+2025-10-19 18:55:48,855 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : NodeContainer : String Manipulation : 3:2 : String Manipulation 3:2 has new state: POSTEXECUTE
+2025-10-19 18:55:48,855 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : WorkflowManager : String Manipulation : 3:2 : String Manipulation 3:2 doAfterExecute - success
+2025-10-19 18:55:48,855 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : NodeContainer : String Manipulation : 3:2 : String Manipulation 3:2 has new state: EXECUTED
+2025-10-19 18:55:48,855 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : HiLiteHandler : String Manipulation : 3:2 : Removing hilite translator from handler 86a55a13-0a57-49ca-b01a-a0a31fbdeaaa
+2025-10-19 18:55:48,855 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : HiLiteHandler : String Manipulation : 3:2 : Adding hilite translator to handler b1ffcf0e-c8b9-446f-b6a3-2ca09c11b952
+2025-10-19 18:55:48,855 : WARN  : KNIME-Worker-12-String Manipulation 3:2 :  : Node : GroupBy : 3:3 : No grouping column included. Aggregate complete table.
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : GroupByNodeModel : GroupBy : 3:3 : [html->Concatenate true]
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : Node : GroupBy : 3:3 : Configure succeeded. (GroupBy)
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-12-String Manipulation 3:2 :  : NodeContainer : String Manipulation : 3:2 : GroupBy 3:3 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : WorkflowManager : GroupBy : 3:3 : GroupBy 3:3 doBeforePreExecution
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : NodeContainer : GroupBy : 3:3 : GroupBy 3:3 has new state: PREEXECUTE
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : WorkflowDataRepository : GroupBy : 3:3 : Adding handler 09c23d5f-878f-44f6-9870-5bb90b5fc63e (GroupBy 3:3: <no directory>) - 9 in total
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : WorkflowManager : GroupBy : 3:3 : GroupBy 3:3 doBeforeExecution
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : NodeContainer : GroupBy : 3:3 : GroupBy 3:3 has new state: EXECUTING
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : LocalNodeExecutionJob : GroupBy : 3:3 : GroupBy 3:3 Start execute
+2025-10-19 18:55:48,856 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : ExecutionContext : GroupBy : 3:3 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,857 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : ExecutionContext : GroupBy : 3:3 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,857 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : BufferSettings : GroupBy : 3:3 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,858 : INFO  : KNIME-Worker-9-GroupBy 3:3 :  : LocalNodeExecutionJob : GroupBy : 3:3 : GroupBy 3:3 End execute (0 secs)
+2025-10-19 18:55:48,858 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : WorkflowManager : GroupBy : 3:3 : GroupBy 3:3 doBeforePostExecution
+2025-10-19 18:55:48,858 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : NodeContainer : GroupBy : 3:3 : GroupBy 3:3 has new state: POSTEXECUTE
+2025-10-19 18:55:48,859 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : WorkflowManager : GroupBy : 3:3 : GroupBy 3:3 doAfterExecute - success
+2025-10-19 18:55:48,859 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : NodeContainer : GroupBy : 3:3 : GroupBy 3:3 has new state: EXECUTED
+2025-10-19 18:55:48,859 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : Node : String Manipulation : 3:4 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,859 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : NodeContainer : GroupBy : 3:3 : String Manipulation 3:4 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,859 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : Node : String Manipulation : 3:7 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,860 : DEBUG : KNIME-Worker-9-GroupBy 3:3 :  : Node : Table Row to Variable : 3:5 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:55:48,860 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : WorkflowManager : String Manipulation : 3:4 : String Manipulation 3:4 doBeforePreExecution
+2025-10-19 18:55:48,860 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : NodeContainer : String Manipulation : 3:4 : String Manipulation 3:4 has new state: PREEXECUTE
+2025-10-19 18:55:48,860 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : WorkflowDataRepository : String Manipulation : 3:4 : Adding handler a7bf9762-0f11-4430-a756-8c42a147cf3a (String Manipulation 3:4: <no directory>) - 10 in total
+2025-10-19 18:55:48,861 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : WorkflowManager : String Manipulation : 3:4 : String Manipulation 3:4 doBeforeExecution
+2025-10-19 18:55:48,861 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : NodeContainer : String Manipulation : 3:4 : String Manipulation 3:4 has new state: EXECUTING
+2025-10-19 18:55:48,861 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : LocalNodeExecutionJob : String Manipulation : 3:4 : String Manipulation 3:4 Start execute
+2025-10-19 18:55:48,861 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : ExecutionContext : String Manipulation : 3:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,861 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : ExecutionContext : String Manipulation : 3:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,862 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : BufferSettings : String Manipulation : 3:4 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,863 : INFO  : KNIME-Worker-11-String Manipulation 3:4 :  : LocalNodeExecutionJob : String Manipulation : 3:4 : String Manipulation 3:4 End execute (0 secs)
+2025-10-19 18:55:48,863 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : WorkflowManager : String Manipulation : 3:4 : String Manipulation 3:4 doBeforePostExecution
+2025-10-19 18:55:48,863 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : NodeContainer : String Manipulation : 3:4 : String Manipulation 3:4 has new state: POSTEXECUTE
+2025-10-19 18:55:48,863 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : WorkflowManager : String Manipulation : 3:4 : String Manipulation 3:4 doAfterExecute - success
+2025-10-19 18:55:48,863 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : NodeContainer : String Manipulation : 3:4 : String Manipulation 3:4 has new state: EXECUTED
+2025-10-19 18:55:48,863 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : Node : String Manipulation : 3:7 : Configure succeeded. (String Manipulation)
+2025-10-19 18:55:48,863 : DEBUG : KNIME-Worker-11-String Manipulation 3:4 :  : NodeContainer : String Manipulation : 3:4 : String Manipulation 3:7 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : WorkflowManager : String Manipulation : 3:7 : String Manipulation 3:7 doBeforePreExecution
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : NodeContainer : String Manipulation : 3:7 : String Manipulation 3:7 has new state: PREEXECUTE
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : WorkflowDataRepository : String Manipulation : 3:7 : Adding handler aad011b4-7e7a-4407-9b02-0b8ebdf9ba7c (String Manipulation 3:7: <no directory>) - 11 in total
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : WorkflowManager : String Manipulation : 3:7 : String Manipulation 3:7 doBeforeExecution
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : NodeContainer : String Manipulation : 3:7 : String Manipulation 3:7 has new state: EXECUTING
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : LocalNodeExecutionJob : String Manipulation : 3:7 : String Manipulation 3:7 Start execute
+2025-10-19 18:55:48,865 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : ExecutionContext : String Manipulation : 3:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,866 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : ExecutionContext : String Manipulation : 3:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:55:48,871 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : BufferSettings : String Manipulation : 3:7 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:55:48,873 : INFO  : KNIME-Worker-10-String Manipulation 3:7 :  : LocalNodeExecutionJob : String Manipulation : 3:7 : String Manipulation 3:7 End execute (0 secs)
+2025-10-19 18:55:48,873 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : WorkflowManager : String Manipulation : 3:7 : String Manipulation 3:7 doBeforePostExecution
+2025-10-19 18:55:48,873 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : NodeContainer : String Manipulation : 3:7 : String Manipulation 3:7 has new state: POSTEXECUTE
+2025-10-19 18:55:48,873 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : WorkflowManager : String Manipulation : 3:7 : String Manipulation 3:7 doAfterExecute - success
+2025-10-19 18:55:48,873 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : NodeContainer : String Manipulation : 3:7 : String Manipulation 3:7 has new state: EXECUTED
+2025-10-19 18:55:48,876 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : Node : Table Row to Variable : 3:5 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:55:48,876 : DEBUG : KNIME-Worker-10-String Manipulation 3:7 :  : NodeContainer : String Manipulation : 3:7 : Table Row to Variable 3:5 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,876 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : WorkflowManager : Table Row to Variable : 3:5 : Table Row to Variable 3:5 doBeforePreExecution
+2025-10-19 18:55:48,876 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : NodeContainer : Table Row to Variable : 3:5 : Table Row to Variable 3:5 has new state: PREEXECUTE
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : WorkflowDataRepository : Table Row to Variable : 3:5 : Adding handler 47f1bc0c-b485-4135-b9b9-ac6ae6888f56 (Table Row to Variable 3:5: <no directory>) - 12 in total
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : WorkflowManager : Table Row to Variable : 3:5 : Table Row to Variable 3:5 doBeforeExecution
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : NodeContainer : Table Row to Variable : 3:5 : Table Row to Variable 3:5 has new state: EXECUTING
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : LocalNodeExecutionJob : Table Row to Variable : 3:5 : Table Row to Variable 3:5 Start execute
+2025-10-19 18:55:48,878 : INFO  : KNIME-Worker-12-Table Row to Variable 3:5 :  : LocalNodeExecutionJob : Table Row to Variable : 3:5 : Table Row to Variable 3:5 End execute (0 secs)
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : WorkflowManager : Table Row to Variable : 3:5 : Table Row to Variable 3:5 doBeforePostExecution
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : NodeContainer : Table Row to Variable : 3:5 : Table Row to Variable 3:5 has new state: POSTEXECUTE
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : WorkflowManager : Table Row to Variable : 3:5 : Table Row to Variable 3:5 doAfterExecute - success
+2025-10-19 18:55:48,878 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : NodeContainer : Table Row to Variable : 3:5 : Table Row to Variable 3:5 has new state: EXECUTED
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : Node : Send Email : 3:6 : Configure succeeded. (Send Email)
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-12-Table Row to Variable 3:5 :  : NodeContainer : Table Row to Variable : 3:5 : Send Email 3:6 has new state: CONFIGURED_QUEUED
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : WorkflowManager : Send Email : 3:6 : Send Email 3:6 doBeforePreExecution
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : NodeContainer : Send Email : 3:6 : Send Email 3:6 has new state: PREEXECUTE
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : WorkflowDataRepository : Send Email : 3:6 : Adding handler a2e71817-e9f5-4e4a-94ae-c8712ad77e79 (Send Email 3:6: <no directory>) - 13 in total
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : WorkflowManager : Send Email : 3:6 : Send Email 3:6 doBeforeExecution
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : NodeContainer : Send Email : 3:6 : Send Email 3:6 has new state: EXECUTING
+2025-10-19 18:55:48,879 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : LocalNodeExecutionJob : Send Email : 3:6 : Send Email 3:6 Start execute
+2025-10-19 18:55:50,910 : INFO  : KNIME-Worker-8-Send Email 3:14 :  : LocalNodeExecutionJob : Send Email : 3:14 : Send Email 3:14 End execute (2 secs)
+2025-10-19 18:55:50,910 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : WorkflowManager : Send Email : 3:14 : Send Email 3:14 doBeforePostExecution
+2025-10-19 18:55:50,910 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : NodeContainer : Send Email : 3:14 : Send Email 3:14 has new state: POSTEXECUTE
+2025-10-19 18:55:50,910 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : WorkflowManager : Send Email : 3:14 : Send Email 3:14 doAfterExecute - success
+2025-10-19 18:55:50,910 : DEBUG : KNIME-Worker-8-Send Email 3:14 :  : NodeContainer : Send Email : 3:14 : Send Email 3:14 has new state: EXECUTED
+2025-10-19 18:55:50,915 : INFO  : KNIME-Worker-9-Send Email 3:6 :  : LocalNodeExecutionJob : Send Email : 3:6 : Send Email 3:6 End execute (2 secs)
+2025-10-19 18:55:50,915 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : WorkflowManager : Send Email : 3:6 : Send Email 3:6 doBeforePostExecution
+2025-10-19 18:55:50,915 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : NodeContainer : Send Email : 3:6 : Send Email 3:6 has new state: POSTEXECUTE
+2025-10-19 18:55:50,915 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : WorkflowManager : Send Email : 3:6 : Send Email 3:6 doAfterExecute - success
+2025-10-19 18:55:50,915 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : NodeContainer : Send Email : 3:6 : Send Email 3:6 has new state: EXECUTED
+2025-10-19 18:55:50,915 : DEBUG : KNIME-Worker-9-Send Email 3:6 :  : NodeContainer : Send Email : 3:6 : SendEmail 3 has new state: EXECUTED
+2025-10-19 18:56:28,588 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : ExcelTableReaderNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,607 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : StringManipulationNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,626 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : GroupByNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,626 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : HiLiteHandler : SendEmail : 9 : Adding hilite translator to handler 266a62ba-3c6e-4080-bb1a-4efeea906cd2
+2025-10-19 18:56:28,643 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : StringManipulationNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,661 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : TableToVariable3NodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,681 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : SendMailNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,696 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : StringManipulationNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,715 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : CSVTableReaderNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,732 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : StringManipulationNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,748 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : StringManipulationNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,763 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : GroupByNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,763 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : HiLiteHandler : SendEmail : 9 : Adding hilite translator to handler c657d3e0-f3d3-443c-acaa-0938cd5fd8bf
+2025-10-19 18:56:28,782 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : SendMailNodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,799 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : TableToVariable3NodeFactory : SendEmail : 9 : Factory is already initialized. Nothing to do.
+2025-10-19 18:56:28,800 : WARN  : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : Excel Reader : 9:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-19 18:56:28,801 : WARN  : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : Excel Reader : 9:1 : The node configuration changed and the table spec will be recalculated during execution.
+2025-10-19 18:56:28,801 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : Excel Reader : 9:1 : Configure succeeded. (Excel Reader)
+2025-10-19 18:56:28,801 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : CSV Reader : 9:8 : Configure succeeded. (CSV Reader)
+2025-10-19 18:56:28,953 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : String Manipulation : 9:9 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:28,953 : WARN  : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : GroupBy : 9:12 : No grouping column included. Aggregate complete table.
+2025-10-19 18:56:28,953 : WARN  : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : GroupBy : 9:12 : No grouping column included. Aggregate complete table.
+2025-10-19 18:56:28,953 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : GroupByNodeModel : GroupBy : 9:12 : [html->Concatenate true]
+2025-10-19 18:56:28,953 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : GroupBy : 9:12 : Configure succeeded. (GroupBy)
+2025-10-19 18:56:29,032 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : String Manipulation : 9:10 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,033 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : Table Row to Variable : 9:15 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:56:29,035 : DEBUG : KNIME-Worker-9-Call Workflow Service 5:8 :  : Node : Send Email : 9:14 : Configure succeeded. (Send Email)
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : WorkflowManager : Excel Reader : 9:1 : Excel Reader 9:1 doBeforePreExecution
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : Excel Reader 9:1 has new state: PREEXECUTE
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : WorkflowManager : CSV Reader : 9:8 : CSV Reader 9:8 doBeforePreExecution
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : WorkflowDataRepository : Excel Reader : 9:1 : Adding handler 7b0ded85-afc4-4eae-a54f-a38f30c1af62 (Excel Reader 9:1: <no directory>) - 1 in total
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : NodeContainer : CSV Reader : 9:8 : CSV Reader 9:8 has new state: PREEXECUTE
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : WorkflowManager : Excel Reader : 9:1 : Excel Reader 9:1 doBeforeExecution
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : WorkflowDataRepository : CSV Reader : 9:8 : Adding handler 0e8c938a-f0c4-4afc-923b-f707c648b50a (CSV Reader 9:8: <no directory>) - 2 in total
+2025-10-19 18:56:29,038 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : Excel Reader 9:1 has new state: EXECUTING
+2025-10-19 18:56:29,039 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : WorkflowManager : CSV Reader : 9:8 : CSV Reader 9:8 doBeforeExecution
+2025-10-19 18:56:29,039 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : LocalNodeExecutionJob : Excel Reader : 9:1 : Excel Reader 9:1 Start execute
+2025-10-19 18:56:29,039 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : NodeContainer : CSV Reader : 9:8 : CSV Reader 9:8 has new state: EXECUTING
+2025-10-19 18:56:29,039 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : LocalNodeExecutionJob : CSV Reader : 9:8 : CSV Reader 9:8 Start execute
+2025-10-19 18:56:29,046 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : ExecutionContext : CSV Reader : 9:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,046 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : BufferSettings : CSV Reader : 9:8 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,046 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : ExecutionContext : CSV Reader : 9:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : ExecutionContext : CSV Reader : 9:8 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,048 : INFO  : KNIME-Worker-11-CSV Reader 9:8 :  : LocalNodeExecutionJob : CSV Reader : 9:8 : CSV Reader 9:8 End execute (0 secs)
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : WorkflowManager : CSV Reader : 9:8 : CSV Reader 9:8 doBeforePostExecution
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : NodeContainer : CSV Reader : 9:8 : CSV Reader 9:8 has new state: POSTEXECUTE
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : WorkflowManager : CSV Reader : 9:8 : CSV Reader 9:8 doAfterExecute - success
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : NodeContainer : CSV Reader : 9:8 : CSV Reader 9:8 has new state: EXECUTED
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : Node : String Manipulation : 9:9 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : NodeContainer : CSV Reader : 9:8 : String Manipulation 9:9 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,048 : WARN  : KNIME-Worker-11-CSV Reader 9:8 :  : Node : GroupBy : 9:12 : No grouping column included. Aggregate complete table.
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : GroupByNodeModel : GroupBy : 9:12 : [html->Concatenate true]
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-11-CSV Reader 9:8 :  : Node : GroupBy : 9:12 : Configure succeeded. (GroupBy)
+2025-10-19 18:56:29,048 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : WorkflowManager : String Manipulation : 9:9 : String Manipulation 9:9 doBeforePreExecution
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : NodeContainer : String Manipulation : 9:9 : String Manipulation 9:9 has new state: PREEXECUTE
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : WorkflowDataRepository : String Manipulation : 9:9 : Adding handler de0407fc-45ca-4ffe-b05a-e17a32f5a0ab (String Manipulation 9:9: <no directory>) - 3 in total
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : WorkflowManager : String Manipulation : 9:9 : String Manipulation 9:9 doBeforeExecution
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : NodeContainer : String Manipulation : 9:9 : String Manipulation 9:9 has new state: EXECUTING
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : LocalNodeExecutionJob : String Manipulation : 9:9 : String Manipulation 9:9 Start execute
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : ExecutionContext : String Manipulation : 9:9 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,049 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : ExecutionContext : String Manipulation : 9:9 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,050 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : BufferSettings : String Manipulation : 9:9 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,050 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 9:1 : Excel sheet parsing started
+2025-10-19 18:56:29,050 : INFO  : KNIME-Worker-8-String Manipulation 9:9 :  : LocalNodeExecutionJob : String Manipulation : 9:9 : String Manipulation 9:9 End execute (0 secs)
+2025-10-19 18:56:29,050 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : WorkflowManager : String Manipulation : 9:9 : String Manipulation 9:9 doBeforePostExecution
+2025-10-19 18:56:29,050 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : NodeContainer : String Manipulation : 9:9 : String Manipulation 9:9 has new state: POSTEXECUTE
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : WorkflowManager : String Manipulation : 9:9 : String Manipulation 9:9 doAfterExecute - success
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : NodeContainer : String Manipulation : 9:9 : String Manipulation 9:9 has new state: EXECUTED
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : HiLiteHandler : String Manipulation : 9:9 : Removing hilite translator from handler 94f73dd9-39f0-4fc3-9f23-e8d8d2c7fd1e
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : HiLiteHandler : String Manipulation : 9:9 : Adding hilite translator to handler 4b9312aa-8865-4b49-bb23-1b2458d50dfe
+2025-10-19 18:56:29,052 : WARN  : KNIME-Worker-8-String Manipulation 9:9 :  : Node : GroupBy : 9:12 : No grouping column included. Aggregate complete table.
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : GroupByNodeModel : GroupBy : 9:12 : [html->Concatenate true]
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : Node : GroupBy : 9:12 : Configure succeeded. (GroupBy)
+2025-10-19 18:56:29,052 : DEBUG : KNIME-Worker-8-String Manipulation 9:9 :  : NodeContainer : String Manipulation : 9:9 : GroupBy 9:12 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : WorkflowManager : GroupBy : 9:12 : GroupBy 9:12 doBeforePreExecution
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : NodeContainer : GroupBy : 9:12 : GroupBy 9:12 has new state: PREEXECUTE
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : WorkflowDataRepository : GroupBy : 9:12 : Adding handler 02b9c786-5fca-4f19-875f-b6f7c02538c3 (GroupBy 9:12: <no directory>) - 4 in total
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : WorkflowManager : GroupBy : 9:12 : GroupBy 9:12 doBeforeExecution
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : NodeContainer : GroupBy : 9:12 : GroupBy 9:12 has new state: EXECUTING
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : LocalNodeExecutionJob : GroupBy : 9:12 : GroupBy 9:12 Start execute
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : ExecutionContext : GroupBy : 9:12 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : ExecutionContext : GroupBy : 9:12 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,053 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : BufferSettings : GroupBy : 9:12 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,054 : INFO  : KNIME-Worker-10-GroupBy 9:12 :  : LocalNodeExecutionJob : GroupBy : 9:12 : GroupBy 9:12 End execute (0 secs)
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : WorkflowManager : GroupBy : 9:12 : GroupBy 9:12 doBeforePostExecution
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : NodeContainer : GroupBy : 9:12 : GroupBy 9:12 has new state: POSTEXECUTE
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : WorkflowManager : GroupBy : 9:12 : GroupBy 9:12 doAfterExecute - success
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : NodeContainer : GroupBy : 9:12 : GroupBy 9:12 has new state: EXECUTED
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : Node : String Manipulation : 9:10 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-10-GroupBy 9:12 :  : NodeContainer : GroupBy : 9:12 : String Manipulation 9:10 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : WorkflowManager : String Manipulation : 9:10 : String Manipulation 9:10 doBeforePreExecution
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : NodeContainer : String Manipulation : 9:10 : String Manipulation 9:10 has new state: PREEXECUTE
+2025-10-19 18:56:29,054 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : WorkflowDataRepository : String Manipulation : 9:10 : Adding handler 3015ee84-2428-4276-aee4-463849802a60 (String Manipulation 9:10: <no directory>) - 5 in total
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : WorkflowManager : String Manipulation : 9:10 : String Manipulation 9:10 doBeforeExecution
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : NodeContainer : String Manipulation : 9:10 : String Manipulation 9:10 has new state: EXECUTING
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : LocalNodeExecutionJob : String Manipulation : 9:10 : String Manipulation 9:10 Start execute
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : ExecutionContext : String Manipulation : 9:10 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : ExecutionContext : String Manipulation : 9:10 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 9:1 : Excel sheet parsing finished successfully
+2025-10-19 18:56:29,055 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 9:1 : Closing Excel sheet parser resources
+2025-10-19 18:56:29,056 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : ExecutionContext : Excel Reader : 9:1 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,056 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : BufferSettings : String Manipulation : 9:10 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,058 : INFO  : KNIME-Worker-11-String Manipulation 9:10 :  : LocalNodeExecutionJob : String Manipulation : 9:10 : String Manipulation 9:10 End execute (0 secs)
+2025-10-19 18:56:29,058 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : WorkflowManager : String Manipulation : 9:10 : String Manipulation 9:10 doBeforePostExecution
+2025-10-19 18:56:29,058 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : NodeContainer : String Manipulation : 9:10 : String Manipulation 9:10 has new state: POSTEXECUTE
+2025-10-19 18:56:29,058 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : WorkflowManager : String Manipulation : 9:10 : String Manipulation 9:10 doAfterExecute - success
+2025-10-19 18:56:29,058 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : NodeContainer : String Manipulation : 9:10 : String Manipulation 9:10 has new state: EXECUTED
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : Node : Table Row to Variable : 9:15 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-11-String Manipulation 9:10 :  : NodeContainer : String Manipulation : 9:10 : Table Row to Variable 9:15 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : WorkflowManager : Table Row to Variable : 9:15 : Table Row to Variable 9:15 doBeforePreExecution
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : NodeContainer : Table Row to Variable : 9:15 : Table Row to Variable 9:15 has new state: PREEXECUTE
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : WorkflowDataRepository : Table Row to Variable : 9:15 : Adding handler 32ce1d26-b418-4385-ab1c-99ae7a59baa3 (Table Row to Variable 9:15: <no directory>) - 6 in total
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : WorkflowManager : Table Row to Variable : 9:15 : Table Row to Variable 9:15 doBeforeExecution
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : NodeContainer : Table Row to Variable : 9:15 : Table Row to Variable 9:15 has new state: EXECUTING
+2025-10-19 18:56:29,059 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : LocalNodeExecutionJob : Table Row to Variable : 9:15 : Table Row to Variable 9:15 Start execute
+2025-10-19 18:56:29,060 : INFO  : KNIME-Worker-8-Table Row to Variable 9:15 :  : LocalNodeExecutionJob : Table Row to Variable : 9:15 : Table Row to Variable 9:15 End execute (0 secs)
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : WorkflowManager : Table Row to Variable : 9:15 : Table Row to Variable 9:15 doBeforePostExecution
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : NodeContainer : Table Row to Variable : 9:15 : Table Row to Variable 9:15 has new state: POSTEXECUTE
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : WorkflowManager : Table Row to Variable : 9:15 : Table Row to Variable 9:15 doAfterExecute - success
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : NodeContainer : Table Row to Variable : 9:15 : Table Row to Variable 9:15 has new state: EXECUTED
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : Node : Send Email : 9:14 : Configure succeeded. (Send Email)
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:15 :  : NodeContainer : Table Row to Variable : 9:15 : Send Email 9:14 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,060 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : WorkflowManager : Send Email : 9:14 : Send Email 9:14 doBeforePreExecution
+2025-10-19 18:56:29,061 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : NodeContainer : Send Email : 9:14 : Send Email 9:14 has new state: PREEXECUTE
+2025-10-19 18:56:29,061 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : WorkflowDataRepository : Send Email : 9:14 : Adding handler 6c9f5a59-4585-463c-84e3-4dc8f5e67e1f (Send Email 9:14: <no directory>) - 7 in total
+2025-10-19 18:56:29,061 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : WorkflowManager : Send Email : 9:14 : Send Email 9:14 doBeforeExecution
+2025-10-19 18:56:29,061 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : NodeContainer : Send Email : 9:14 : Send Email 9:14 has new state: EXECUTING
+2025-10-19 18:56:29,061 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : LocalNodeExecutionJob : Send Email : 9:14 : Send Email 9:14 Start execute
+2025-10-19 18:56:29,100 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 9:1 : Excel sheet parsing started
+2025-10-19 18:56:29,103 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : BufferSettings : Excel Reader : 9:1 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,105 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 9:1 : Excel sheet parsing finished successfully
+2025-10-19 18:56:29,105 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 9:1 : Closing Excel sheet parser resources
+2025-10-19 18:56:29,105 : INFO  : KNIME-Worker-12-Excel Reader 9:1 :  : LocalNodeExecutionJob : Excel Reader : 9:1 : Excel Reader 9:1 End execute (0 secs)
+2025-10-19 18:56:29,105 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : WorkflowManager : Excel Reader : 9:1 : Excel Reader 9:1 doBeforePostExecution
+2025-10-19 18:56:29,105 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : Excel Reader 9:1 has new state: POSTEXECUTE
+2025-10-19 18:56:29,105 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : WorkflowManager : Excel Reader : 9:1 : Excel Reader 9:1 doAfterExecute - success
+2025-10-19 18:56:29,105 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : Excel Reader 9:1 has new state: EXECUTED
+2025-10-19 18:56:29,207 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : Node : String Manipulation : 9:2 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,207 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : String Manipulation 9:2 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,207 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : String Manipulation 9:2 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,207 : WARN  : KNIME-Worker-12-Excel Reader 9:1 :  : Node : GroupBy : 9:3 : No grouping column included. Aggregate complete table.
+2025-10-19 18:56:29,207 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : GroupByNodeModel : GroupBy : 9:3 : [html->Concatenate true]
+2025-10-19 18:56:29,207 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : Node : GroupBy : 9:3 : Configure succeeded. (GroupBy)
+2025-10-19 18:56:29,207 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : GroupBy 9:3 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,327 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : Node : String Manipulation : 9:4 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,327 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : String Manipulation 9:4 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,404 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : Node : String Manipulation : 9:7 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,404 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : String Manipulation 9:7 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : Node : Table Row to Variable : 9:5 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : Table Row to Variable 9:5 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : Node : Send Email : 9:6 : Configure succeeded. (Send Email)
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-12-Excel Reader 9:1 :  : NodeContainer : Excel Reader : 9:1 : Send Email 9:6 has new state: CONFIGURED_MARKEDFOREXEC
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : WorkflowManager : String Manipulation : 9:2 : String Manipulation 9:2 doBeforePreExecution
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : NodeContainer : String Manipulation : 9:2 : String Manipulation 9:2 has new state: PREEXECUTE
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : WorkflowDataRepository : String Manipulation : 9:2 : Adding handler c56b2319-bef2-4237-9897-d9bdcc4196d3 (String Manipulation 9:2: <no directory>) - 8 in total
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : WorkflowManager : String Manipulation : 9:2 : String Manipulation 9:2 doBeforeExecution
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : NodeContainer : String Manipulation : 9:2 : String Manipulation 9:2 has new state: EXECUTING
+2025-10-19 18:56:29,405 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : LocalNodeExecutionJob : String Manipulation : 9:2 : String Manipulation 9:2 Start execute
+2025-10-19 18:56:29,406 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : ExecutionContext : String Manipulation : 9:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,406 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : ExecutionContext : String Manipulation : 9:2 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,407 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : BufferSettings : String Manipulation : 9:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,407 : INFO  : KNIME-Worker-11-String Manipulation 9:2 :  : LocalNodeExecutionJob : String Manipulation : 9:2 : String Manipulation 9:2 End execute (0 secs)
+2025-10-19 18:56:29,407 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : WorkflowManager : String Manipulation : 9:2 : String Manipulation 9:2 doBeforePostExecution
+2025-10-19 18:56:29,407 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : NodeContainer : String Manipulation : 9:2 : String Manipulation 9:2 has new state: POSTEXECUTE
+2025-10-19 18:56:29,407 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : WorkflowManager : String Manipulation : 9:2 : String Manipulation 9:2 doAfterExecute - success
+2025-10-19 18:56:29,407 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : NodeContainer : String Manipulation : 9:2 : String Manipulation 9:2 has new state: EXECUTED
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : HiLiteHandler : String Manipulation : 9:2 : Removing hilite translator from handler ab4253ea-5efd-4003-a904-66f2fc4fd66e
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : HiLiteHandler : String Manipulation : 9:2 : Adding hilite translator to handler d92d82fb-eb0d-4f7f-b538-3d26b7d79a24
+2025-10-19 18:56:29,408 : WARN  : KNIME-Worker-11-String Manipulation 9:2 :  : Node : GroupBy : 9:3 : No grouping column included. Aggregate complete table.
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : GroupByNodeModel : GroupBy : 9:3 : [html->Concatenate true]
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : Node : GroupBy : 9:3 : Configure succeeded. (GroupBy)
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-11-String Manipulation 9:2 :  : NodeContainer : String Manipulation : 9:2 : GroupBy 9:3 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : WorkflowManager : GroupBy : 9:3 : GroupBy 9:3 doBeforePreExecution
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : NodeContainer : GroupBy : 9:3 : GroupBy 9:3 has new state: PREEXECUTE
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : WorkflowDataRepository : GroupBy : 9:3 : Adding handler fadc012d-9884-4561-8e6a-4418dc0efc89 (GroupBy 9:3: <no directory>) - 9 in total
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : WorkflowManager : GroupBy : 9:3 : GroupBy 9:3 doBeforeExecution
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : NodeContainer : GroupBy : 9:3 : GroupBy 9:3 has new state: EXECUTING
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : LocalNodeExecutionJob : GroupBy : 9:3 : GroupBy 9:3 Start execute
+2025-10-19 18:56:29,408 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : ExecutionContext : GroupBy : 9:3 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,409 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : ExecutionContext : GroupBy : 9:3 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,409 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : BufferSettings : GroupBy : 9:3 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,409 : INFO  : KNIME-Worker-8-GroupBy 9:3 :  : LocalNodeExecutionJob : GroupBy : 9:3 : GroupBy 9:3 End execute (0 secs)
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : WorkflowManager : GroupBy : 9:3 : GroupBy 9:3 doBeforePostExecution
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : NodeContainer : GroupBy : 9:3 : GroupBy 9:3 has new state: POSTEXECUTE
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : WorkflowManager : GroupBy : 9:3 : GroupBy 9:3 doAfterExecute - success
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : NodeContainer : GroupBy : 9:3 : GroupBy 9:3 has new state: EXECUTED
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : Node : String Manipulation : 9:4 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : NodeContainer : GroupBy : 9:3 : String Manipulation 9:4 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,411 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : Node : String Manipulation : 9:7 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-8-GroupBy 9:3 :  : Node : Table Row to Variable : 9:5 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : WorkflowManager : String Manipulation : 9:4 : String Manipulation 9:4 doBeforePreExecution
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : NodeContainer : String Manipulation : 9:4 : String Manipulation 9:4 has new state: PREEXECUTE
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : WorkflowDataRepository : String Manipulation : 9:4 : Adding handler a98a3a66-5757-463b-8436-4039b4abf66c (String Manipulation 9:4: <no directory>) - 10 in total
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : WorkflowManager : String Manipulation : 9:4 : String Manipulation 9:4 doBeforeExecution
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : NodeContainer : String Manipulation : 9:4 : String Manipulation 9:4 has new state: EXECUTING
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : LocalNodeExecutionJob : String Manipulation : 9:4 : String Manipulation 9:4 Start execute
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : ExecutionContext : String Manipulation : 9:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,412 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : ExecutionContext : String Manipulation : 9:4 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,413 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : BufferSettings : String Manipulation : 9:4 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,414 : INFO  : KNIME-Worker-12-String Manipulation 9:4 :  : LocalNodeExecutionJob : String Manipulation : 9:4 : String Manipulation 9:4 End execute (0 secs)
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : WorkflowManager : String Manipulation : 9:4 : String Manipulation 9:4 doBeforePostExecution
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : NodeContainer : String Manipulation : 9:4 : String Manipulation 9:4 has new state: POSTEXECUTE
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : WorkflowManager : String Manipulation : 9:4 : String Manipulation 9:4 doAfterExecute - success
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : NodeContainer : String Manipulation : 9:4 : String Manipulation 9:4 has new state: EXECUTED
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : Node : String Manipulation : 9:7 : Configure succeeded. (String Manipulation)
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-12-String Manipulation 9:4 :  : NodeContainer : String Manipulation : 9:4 : String Manipulation 9:7 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : WorkflowManager : String Manipulation : 9:7 : String Manipulation 9:7 doBeforePreExecution
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : NodeContainer : String Manipulation : 9:7 : String Manipulation 9:7 has new state: PREEXECUTE
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : WorkflowDataRepository : String Manipulation : 9:7 : Adding handler e8469037-b9f1-46a9-a0da-06ffcf4a1aab (String Manipulation 9:7: <no directory>) - 11 in total
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : WorkflowManager : String Manipulation : 9:7 : String Manipulation 9:7 doBeforeExecution
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : NodeContainer : String Manipulation : 9:7 : String Manipulation 9:7 has new state: EXECUTING
+2025-10-19 18:56:29,414 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : LocalNodeExecutionJob : String Manipulation : 9:7 : String Manipulation 9:7 Start execute
+2025-10-19 18:56:29,415 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : ExecutionContext : String Manipulation : 9:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,415 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : ExecutionContext : String Manipulation : 9:7 : Using Table Backend "BufferedTableBackend".
+2025-10-19 18:56:29,417 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : BufferSettings : String Manipulation : 9:7 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2025-10-19 18:56:29,417 : INFO  : KNIME-Worker-11-String Manipulation 9:7 :  : LocalNodeExecutionJob : String Manipulation : 9:7 : String Manipulation 9:7 End execute (0 secs)
+2025-10-19 18:56:29,417 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : WorkflowManager : String Manipulation : 9:7 : String Manipulation 9:7 doBeforePostExecution
+2025-10-19 18:56:29,417 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : NodeContainer : String Manipulation : 9:7 : String Manipulation 9:7 has new state: POSTEXECUTE
+2025-10-19 18:56:29,418 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : WorkflowManager : String Manipulation : 9:7 : String Manipulation 9:7 doAfterExecute - success
+2025-10-19 18:56:29,418 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : NodeContainer : String Manipulation : 9:7 : String Manipulation 9:7 has new state: EXECUTED
+2025-10-19 18:56:29,418 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : Node : Table Row to Variable : 9:5 : Configure succeeded. (Table Row to Variable)
+2025-10-19 18:56:29,418 : DEBUG : KNIME-Worker-11-String Manipulation 9:7 :  : NodeContainer : String Manipulation : 9:7 : Table Row to Variable 9:5 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,418 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : WorkflowManager : Table Row to Variable : 9:5 : Table Row to Variable 9:5 doBeforePreExecution
+2025-10-19 18:56:29,418 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : NodeContainer : Table Row to Variable : 9:5 : Table Row to Variable 9:5 has new state: PREEXECUTE
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : WorkflowDataRepository : Table Row to Variable : 9:5 : Adding handler f9439df2-0b80-4d86-b95e-4fb0679f57f7 (Table Row to Variable 9:5: <no directory>) - 12 in total
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : WorkflowManager : Table Row to Variable : 9:5 : Table Row to Variable 9:5 doBeforeExecution
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : NodeContainer : Table Row to Variable : 9:5 : Table Row to Variable 9:5 has new state: EXECUTING
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : LocalNodeExecutionJob : Table Row to Variable : 9:5 : Table Row to Variable 9:5 Start execute
+2025-10-19 18:56:29,419 : INFO  : KNIME-Worker-8-Table Row to Variable 9:5 :  : LocalNodeExecutionJob : Table Row to Variable : 9:5 : Table Row to Variable 9:5 End execute (0 secs)
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : WorkflowManager : Table Row to Variable : 9:5 : Table Row to Variable 9:5 doBeforePostExecution
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : NodeContainer : Table Row to Variable : 9:5 : Table Row to Variable 9:5 has new state: POSTEXECUTE
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : WorkflowManager : Table Row to Variable : 9:5 : Table Row to Variable 9:5 doAfterExecute - success
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : NodeContainer : Table Row to Variable : 9:5 : Table Row to Variable 9:5 has new state: EXECUTED
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : Node : Send Email : 9:6 : Configure succeeded. (Send Email)
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-8-Table Row to Variable 9:5 :  : NodeContainer : Table Row to Variable : 9:5 : Send Email 9:6 has new state: CONFIGURED_QUEUED
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : WorkflowManager : Send Email : 9:6 : Send Email 9:6 doBeforePreExecution
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : NodeContainer : Send Email : 9:6 : Send Email 9:6 has new state: PREEXECUTE
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : WorkflowDataRepository : Send Email : 9:6 : Adding handler 15709e09-43cc-4f9c-9dd0-6b7d3c07ebaa (Send Email 9:6: <no directory>) - 13 in total
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : WorkflowManager : Send Email : 9:6 : Send Email 9:6 doBeforeExecution
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : NodeContainer : Send Email : 9:6 : Send Email 9:6 has new state: EXECUTING
+2025-10-19 18:56:29,419 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : LocalNodeExecutionJob : Send Email : 9:6 : Send Email 9:6 Start execute
+2025-10-19 18:56:30,752 : INFO  : KNIME-Worker-10-Send Email 9:14 :  : LocalNodeExecutionJob : Send Email : 9:14 : Send Email 9:14 End execute (1 sec)
+2025-10-19 18:56:30,752 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : WorkflowManager : Send Email : 9:14 : Send Email 9:14 doBeforePostExecution
+2025-10-19 18:56:30,752 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : NodeContainer : Send Email : 9:14 : Send Email 9:14 has new state: POSTEXECUTE
+2025-10-19 18:56:30,752 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : WorkflowManager : Send Email : 9:14 : Send Email 9:14 doAfterExecute - success
+2025-10-19 18:56:30,752 : DEBUG : KNIME-Worker-10-Send Email 9:14 :  : NodeContainer : Send Email : 9:14 : Send Email 9:14 has new state: EXECUTED
+2025-10-19 18:56:31,219 : INFO  : KNIME-Worker-12-Send Email 9:6 :  : LocalNodeExecutionJob : Send Email : 9:6 : Send Email 9:6 End execute (1 sec)
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : WorkflowManager : Send Email : 9:6 : Send Email 9:6 doBeforePostExecution
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : NodeContainer : Send Email : 9:6 : Send Email 9:6 has new state: POSTEXECUTE
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : WorkflowManager : Send Email : 9:6 : Send Email 9:6 doAfterExecute - success
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : NodeContainer : Send Email : 9:6 : Send Email 9:6 has new state: EXECUTED
+2025-10-19 18:56:31,219 : DEBUG : KNIME-Worker-12-Send Email 9:6 :  : NodeContainer : Send Email : 9:6 : SendEmail 9 has new state: EXECUTED
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : Node : Send Email : 9:6 : clean output ports.
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : Send Email : 9:6 : Removing handler 15709e09-43cc-4f9c-9dd0-6b7d3c07ebaa (Send Email 9:6: <no directory>) - 12 remaining
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : Node : Send Email : 9:14 : clean output ports.
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : Send Email : 9:14 : Removing handler 6c9f5a59-4585-463c-84e3-4dc8f5e67e1f (Send Email 9:14: <no directory>) - 11 remaining
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : Node : Table Row to Variable : 9:5 : clean output ports.
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : Table Row to Variable : 9:5 : Removing handler f9439df2-0b80-4d86-b95e-4fb0679f57f7 (Table Row to Variable 9:5: <no directory>) - 10 remaining
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : Node : Table Row to Variable : 9:15 : clean output ports.
+2025-10-19 18:57:32,620 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : Table Row to Variable : 9:15 : Removing handler 32ce1d26-b418-4385-ab1c-99ae7a59baa3 (Table Row to Variable 9:15: <no directory>) - 9 remaining
+2025-10-19 18:57:32,623 : DEBUG : Global KNIME Timer :  : Node : String Manipulation : 9:7 : clean output ports.
+2025-10-19 18:57:32,624 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : String Manipulation : 9:7 : Removing handler e8469037-b9f1-46a9-a0da-06ffcf4a1aab (String Manipulation 9:7: <no directory>) - 8 remaining
+2025-10-19 18:57:32,626 : DEBUG : Global KNIME Timer :  : Node : String Manipulation : 9:10 : clean output ports.
+2025-10-19 18:57:32,626 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : String Manipulation : 9:10 : Removing handler 3015ee84-2428-4276-aee4-463849802a60 (String Manipulation 9:10: <no directory>) - 7 remaining
+2025-10-19 18:57:32,629 : DEBUG : Global KNIME Timer :  : Node : String Manipulation : 9:4 : clean output ports.
+2025-10-19 18:57:32,629 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : String Manipulation : 9:4 : Removing handler a98a3a66-5757-463b-8436-4039b4abf66c (String Manipulation 9:4: <no directory>) - 6 remaining
+2025-10-19 18:57:32,629 : DEBUG : Global KNIME Timer :  : Node : GroupBy : 9:12 : clean output ports.
+2025-10-19 18:57:32,629 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : GroupBy : 9:12 : Removing handler 02b9c786-5fca-4f19-875f-b6f7c02538c3 (GroupBy 9:12: <no directory>) - 5 remaining
+2025-10-19 18:57:32,629 : DEBUG : Global KNIME Timer :  : Node : GroupBy : 9:3 : clean output ports.
+2025-10-19 18:57:32,629 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : GroupBy : 9:3 : Removing handler fadc012d-9884-4561-8e6a-4418dc0efc89 (GroupBy 9:3: <no directory>) - 4 remaining
+2025-10-19 18:57:32,631 : DEBUG : Global KNIME Timer :  : Node : String Manipulation : 9:9 : clean output ports.
+2025-10-19 18:57:32,631 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : String Manipulation : 9:9 : Removing handler de0407fc-45ca-4ffe-b05a-e17a32f5a0ab (String Manipulation 9:9: <no directory>) - 3 remaining
+2025-10-19 18:57:32,633 : DEBUG : Global KNIME Timer :  : Node : String Manipulation : 9:2 : clean output ports.
+2025-10-19 18:57:32,633 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : String Manipulation : 9:2 : Removing handler c56b2319-bef2-4237-9897-d9bdcc4196d3 (String Manipulation 9:2: <no directory>) - 2 remaining
+2025-10-19 18:57:32,633 : DEBUG : Global KNIME Timer :  : Node : CSV Reader : 9:8 : clean output ports.
+2025-10-19 18:57:32,633 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : CSV Reader : 9:8 : Removing handler 0e8c938a-f0c4-4afc-923b-f707c648b50a (CSV Reader 9:8: <no directory>) - 1 remaining
+2025-10-19 18:57:32,633 : DEBUG : Global KNIME Timer :  : Node : Excel Reader : 9:1 : clean output ports.
+2025-10-19 18:57:32,633 : DEBUG : Global KNIME Timer :  : WorkflowDataRepository : Excel Reader : 9:1 : Removing handler 7b0ded85-afc4-4eae-a54f-a38f30c1af62 (Excel Reader 9:1: <no directory>) - 0 remaining
+2025-10-19 19:01:46,651 : DEBUG : main :  : Node : Send Email : 3:6 : clean output ports.
+2025-10-19 19:01:46,651 : DEBUG : main :  : WorkflowDataRepository : Send Email : 3:6 : Removing handler a2e71817-e9f5-4e4a-94ae-c8712ad77e79 (Send Email 3:6: <no directory>) - 12 remaining
+2025-10-19 19:01:46,651 : DEBUG : main :  : Node : Send Email : 3:14 : clean output ports.
+2025-10-19 19:01:46,651 : DEBUG : main :  : WorkflowDataRepository : Send Email : 3:14 : Removing handler 5927c713-88db-4887-a57a-9602aba7dbc1 (Send Email 3:14: <no directory>) - 11 remaining
+2025-10-19 19:01:46,651 : DEBUG : main :  : Node : Table Row to Variable : 3:5 : clean output ports.
+2025-10-19 19:01:46,651 : DEBUG : main :  : WorkflowDataRepository : Table Row to Variable : 3:5 : Removing handler 47f1bc0c-b485-4135-b9b9-ac6ae6888f56 (Table Row to Variable 3:5: <no directory>) - 10 remaining
+2025-10-19 19:01:46,651 : DEBUG : main :  : Node : Table Row to Variable : 3:15 : clean output ports.
+2025-10-19 19:01:46,651 : DEBUG : main :  : WorkflowDataRepository : Table Row to Variable : 3:15 : Removing handler ef7dfe95-be21-43fd-9c7b-f44fec211180 (Table Row to Variable 3:15: <no directory>) - 9 remaining
+2025-10-19 19:01:46,653 : DEBUG : main :  : Node : String Manipulation : 3:7 : clean output ports.
+2025-10-19 19:01:46,654 : DEBUG : main :  : WorkflowDataRepository : String Manipulation : 3:7 : Removing handler aad011b4-7e7a-4407-9b02-0b8ebdf9ba7c (String Manipulation 3:7: <no directory>) - 8 remaining
+2025-10-19 19:01:46,658 : DEBUG : main :  : Node : String Manipulation : 3:10 : clean output ports.
+2025-10-19 19:01:46,658 : DEBUG : main :  : WorkflowDataRepository : String Manipulation : 3:10 : Removing handler 9c92ab73-73c1-43a4-88e9-61c8701048bb (String Manipulation 3:10: <no directory>) - 7 remaining
+2025-10-19 19:01:46,660 : DEBUG : main :  : Node : String Manipulation : 3:4 : clean output ports.
+2025-10-19 19:01:46,660 : DEBUG : main :  : WorkflowDataRepository : String Manipulation : 3:4 : Removing handler a7bf9762-0f11-4430-a756-8c42a147cf3a (String Manipulation 3:4: <no directory>) - 6 remaining
+2025-10-19 19:01:46,660 : DEBUG : main :  : Node : GroupBy : 3:12 : clean output ports.
+2025-10-19 19:01:46,660 : DEBUG : main :  : WorkflowDataRepository : GroupBy : 3:12 : Removing handler dc6dc873-f7c9-42ff-8f1c-a6d356791889 (GroupBy 3:12: <no directory>) - 5 remaining
+2025-10-19 19:01:46,660 : DEBUG : main :  : Node : GroupBy : 3:3 : clean output ports.
+2025-10-19 19:01:46,660 : DEBUG : main :  : WorkflowDataRepository : GroupBy : 3:3 : Removing handler 09c23d5f-878f-44f6-9870-5bb90b5fc63e (GroupBy 3:3: <no directory>) - 4 remaining
+2025-10-19 19:01:46,662 : DEBUG : main :  : Node : String Manipulation : 3:9 : clean output ports.
+2025-10-19 19:01:46,662 : DEBUG : main :  : WorkflowDataRepository : String Manipulation : 3:9 : Removing handler ee654d24-9f6f-48eb-8b70-17166634d5f3 (String Manipulation 3:9: <no directory>) - 3 remaining
+2025-10-19 19:01:46,665 : DEBUG : main :  : Node : String Manipulation : 3:2 : clean output ports.
+2025-10-19 19:01:46,665 : DEBUG : main :  : WorkflowDataRepository : String Manipulation : 3:2 : Removing handler f6c7d812-58a8-43e6-9cff-2a0deaf9ed8d (String Manipulation 3:2: <no directory>) - 2 remaining
+2025-10-19 19:01:46,665 : DEBUG : main :  : Node : CSV Reader : 3:8 : clean output ports.
+2025-10-19 19:01:46,665 : DEBUG : main :  : WorkflowDataRepository : CSV Reader : 3:8 : Removing handler 4ae60f07-ae56-4c0c-a4d4-ddf2daf620ee (CSV Reader 3:8: <no directory>) - 1 remaining
+2025-10-19 19:01:46,665 : DEBUG : main :  : Node : Excel Reader : 3:1 : clean output ports.
+2025-10-19 19:01:46,665 : DEBUG : main :  : WorkflowDataRepository : Excel Reader : 3:1 : Removing handler ebadc22a-7c4f-4c0f-a553-735029977801 (Excel Reader 3:1: <no directory>) - 0 remaining
